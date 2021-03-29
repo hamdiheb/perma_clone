@@ -103,9 +103,36 @@ main {
 }
 
 .highlights-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png);
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/blue_shape.webp);
   width: 370px;
   height: 190px; 
-  background-position: center;
-  background-attachment: fixed;
+  background-size: 370px 190px;
+  color: #fff;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: Avalon,sans-serif;
+  font-weight: 700;
 }
+
+.highlights-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/screen_image.webp);
+  width: 370px;
+  height: 190px; 
+  background-size: 370px 190px;
+  color: #fff;
+  font-size: 100%;
+  font-family: Avalon,sans-serif;
+  font-weight: 700;
+}
+
+.highlight-info a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.highlight-info a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+  
+
