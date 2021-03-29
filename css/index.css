@@ -1,0 +1,111 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-nav {
+  position: fixed;
+  background-color: #2d76ee;
+  width: 100%;
+  font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+  padding: 0px;
+  z-index: 1;
+}
+
+.top-nav-record {
+  padding: 5px;
+}
+
+.top-nav-record-title {
+  width: 345px;
+  height: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.top-nav-record-comment {
+  width: 250px;
+  height: 50px;
+  color: #fff;
+}
+
+.record-comment-link {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.top-nav-button {
+  width: 50.7%;
+  height: 48px;
+  background-color: #2d76ee;
+  border: 1px solid #fff;
+  color: white;
+  margin-left: -5px;
+  border-bottom: none;
+}
+
+.record-nav-button-img {
+  width: 9px;
+}
+
+.top-nav-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.top-nav-menu {
+  position: fixed;
+  top: 180px;
+  background-color: white;
+  width: 375px;
+  height: 48px;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+}
+
+.top-nav-menu-logo {
+  width: 106px;
+  height: 48px;   
+}
+
+.top-nav-menu-links {
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+}
+
+.nav-menu-link {
+  width: 25px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.top-nav-banner {
+  position: fixed;
+  top: 231px;
+  text-align: start;
+  background-color: yellow;
+  height: 60px;
+}
+
+.nav-banner-comment {
+  margin-left: 10px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+}
+
+main {
+  margin-top: 300px;
+}
+
+.highlights-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png);
+  width: 370px;
+  height: 190px; 
+  background-position: center;
+  background-attachment: fixed;
+}
