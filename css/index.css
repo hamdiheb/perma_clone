@@ -1,8 +1,8 @@
 /* General Attributes STARTS */
 
 body {
-  padding: auto;
-  margin: auto;
+  padding: 0;
+  margin: 0;
 }
 
 main {
@@ -15,18 +15,20 @@ main {
 
 .top-nav {
   position: fixed;
-  background-color: #2D76EE;
+  background-color: #2d76ee;
   width: 100%;
   font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
-  padding: 0px;
+  padding: 0;
   z-index: 1;
+  min-height: 86px;
 }
+
 .top-nav-record {
   padding: 2px 16px;
   max-height: 82px;
 }
+
 .top-nav-record-title {
-  width: 100%;
   height: 20px;
   color: #fff;
   font-weight: 700;
@@ -34,6 +36,7 @@ main {
   margin: 0;
   margin-top: 16px;
 }
+
 .top-nav-record-comment {
   color: #fff;
   font-size: 14px;
@@ -42,6 +45,7 @@ main {
   margin: 0;
   margin-bottom: 16px;
 }
+
 .record-comment-link {
   text-decoration: underline;
   color: #fff;
@@ -55,20 +59,23 @@ main {
 .top-nav-button {
   display: inline-block;
   width: 50%;
-  height: 48px;
-  background-color: #2D76EE;
+  min-height: 48px;
+  background-color: #2d76ee;
   border: 1px solid #fff;
   color: white;
   border-bottom: none;
   margin-left: -2.5px;
 }
+
 .record-nav-button-img {
   width: 9px;
 }
+
 .top-nav-button:hover {
   background-color: white;
   color: black;
 }
+
 .top-nav-menu {
   position: fixed;
   top: 132px;
@@ -80,20 +87,28 @@ main {
   border-right: none;
   z-index: 1;
 }
+
 .top-nav-menu-logo {
   width: 106px;
   height: 48px;
 }
+
 .top-nav-menu-links {
   display: flex;
   float: right;
   justify-content: flex-end;
 }
+
+.menu-links-first {
+  display: none;
+}
+
 .nav-menu-link {
   width: 25px;
   margin-top: 10px;
   margin-right: 20px;
 }
+
 .top-nav-banner {
   position: fixed;
   top: 180px;
@@ -103,12 +118,28 @@ main {
   width: 100%;
   z-index: 1;
 }
+
+.top-nav-banner a {
+  text-decoration: none;
+  color: black;
+}
+
+.highlight-info a {
+  color: #fff9;
+  text-decoration: none;
+}
+
+.top-nav-banner a:hover {
+  text-decoration: underline;
+}
+
 .nav-banner-comment {
   margin-left: 10px;
 }
+
 header {
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
 .top-nav-menu-2 {
@@ -125,7 +156,7 @@ header {
   min-height: 190px;
   color: #fff;
   font-size: 100%;
-  font-family: Avalon,sans-serif;
+  font-family: Avalon, sans-serif;
   font-weight: 700;
   display: flex;
   flex-direction: column-reverse;
@@ -136,22 +167,23 @@ header {
   align-content: flex-start;
 }
 
-.highlights p{
+.highlights p {
   margin: 0;
   margin-bottom: 9px;
   width: 90%;
   padding-right: 32px;
 }
 
-#highlights-1{
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/blue_shape.webp);
+#highlights-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/blue_shape.webp);
 }
 
 #highlights-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/screen_image.webp);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/screen_image.webp);
 }
+
 #highlights-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/screen_image.webp);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/screen_image.webp);
 }
 
 .highlight-title {
@@ -160,102 +192,97 @@ header {
 
 .highlight-info {
   text-decoration: none;
-  color: #ffffff99;
+  color: #fff9;
   font-size: 14px;
-  
-}
-
-.highlight-info a {
-  color: #ffffff99;
-  text-decoration: none;
 }
 
 .highlight-info a:hover {
-    text-decoration: underline;
-    color: #fff;
+  text-decoration: underline;
+  color: #fff;
 }
 
 /* HIGHLIGHTS ENDS */
 
 /** Latest funding STARTS **/
 
-.container-latestFunding{
+.container-latestFunding {
   padding: 20px;
   margin-top: 64px;
   font-family: sans-serif;
 }
 
-.latestFunding-header{
+.latestFunding-header {
   font-size: 28px;
-  color: #ff4422;
+  color: #f42;
   font-weight: 700;
 }
 
-.latestFunding-header-links{
+.latestFunding-header-links {
   display: flex;
   flex-direction: column;
 }
 
-.latestFunding-header-links a{
+.latestFunding-header-links a {
   font-size: 14px;
-  color: #ff4422;
+  color: #f42;
   text-decoration: none;
   margin-top: 11px;
 }
 
-.latestFunding-header-links a:hover{
+.latestFunding-header-links a:hover {
   text-decoration: underline;
 }
 
-.latestFunding-body{
+.latestFunding-body {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
 }
 
-.latestFunding-card{
+.latestFunding-card {
   margin-top: 24px;
-  background-color: rgba(255,68,34,.03)
+  background-color: rgba(255, 68, 34, 0.03)
 }
 
-.card-name{
-  background-color: #ff4422;
+.card-name {
+  background-color: #f42;
   color: #fff;
   min-height: 43.33px;
   padding-left: 84px;
   font-size: 18px;
 }
 
-.card-name h4{
-  margin: 0px;
+.card-name h4 {
+  margin: 0;
   padding-top: 10.66px;
 }
 
-.labels-img{
+.labels-img {
   position: absolute;
   height: 60px;
   width: 60px;
   margin: 10.66px;
+  z-index: 1;
 }
 
-.card-price{
+.card-price {
   padding-left: 84px;
   color: #000;
-  background-color: rgba(255, 68, 34, .08);
+  background-color: rgba(255, 68, 34, 0.08);
   margin: 0;
   height: 48px;
 }
 
-.card-price h4{
+.card-price h4 {
   margin: 0;
   padding-top: 11px;
   font-size: 18px;
   font-weight: 700;
 }
 
-.card-price h5{
+.card-price h5 {
   margin: 0;
-  margin-bottom: 11px; 
+  margin-bottom: 11px;
   font-weight: 100;
   font-size: 11px;
 }
@@ -264,38 +291,43 @@ header {
   padding: 16px;
 }
 
-.labels-container{
+.labels-container {
   display: flex;
   padding: 6px;
 }
 
-.labels-container img{
+.labels-container img {
   height: 16px;
   width: 16px;
 }
 
-.labels-container p{
+.labels-container p {
   font-size: 13px;
   margin: 0;
   padding-left: 8px;
-  font-weight: 100px;
+  font-weight: 100;
 }
 
-.card-description{
-  border-top: rgba(255,68,34,.25) 1px solid;
+.card-description {
+  border-top: rgba(255, 68, 34, 0.25) 1px solid;
   padding: 16px;
   font-size: 12px;
-  font-weight: 100px;
+  font-weight: 100;
 }
 
-.card-description span{
+#wolt-card {
+  display: none;
+}
+
+.card-description span {
   color: #aaa;
 }
 
-/** Footer ***/
-footer {
-  margin: 0px;
-  padding: 0px;
+.footer-links a {
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px;
+  color: white;
 }
 
 .footer-section-top {
@@ -310,8 +342,8 @@ footer {
   color: white;
 }
 
-.footer-link{
-  font-family: Maquette,Helvetica Neue,Arial,sans-serif;
+.footer-link {
+  font-family: Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .footer-socialmedia-icons {
@@ -330,29 +362,102 @@ footer {
   background: gray;
 }
 
-.footer-links a {
-  text-decoration: none;
-  font-size: 14px;
-  margin: 5px;
-  color: white;
-}
-
 .footer-links a:hover {
   text-decoration: underline;
 }
+
 .footer-section-buttom {
   background-color: #000;
   margin-top: -16px;
 }
 
-.footer-section-buttom p{
+.footer-section-buttom p {
   color: white;
   text-align: center;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 12px;
 }
-/*************/
+
 /** Latest funding ENDS **/
+
+/** Footer STARTS ***/
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section-top {
+  background-color: #191919;
+  max-height: 160px;
+  padding: 0;
+}
+
+.footer-socialmedia-icons,
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer-link {
+  font-family: sans-serif;
+}
+
+.footer-socialmedia-icons {
+  padding-top: 20px;
+}
+
+.bx {
+  margin: 4px;
+  background: #333;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.bx:hover {
+  background: #131313;
+  border: #333 2px solid;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #aaa;
+  font-family: sans-serif;
+  margin-bottom: 24px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-section-buttom {
+  background-color: #000;
+  margin-top: -16px;
+  min-height: 97px;
+  display: flex;
+}
+
+.footer-section-buttom p {
+  text-align: center;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 12px;
+  display: block;
+  margin: 22px auto;
+  color: #aaa;
+  max-width: 250px;
+}
+
+.footer-section-buttom p i {
+  color: #fff;
+  font-weight: 700;
+}
+
+/** Footer ENDS ***/
 
 /* MAIN ENDS */
 
@@ -360,7 +465,7 @@ footer {
 
 /** Tablet STARTS **/
 
-@media screen and (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .top-nav-menu {
     position: fixed;
     top: 120px;
@@ -384,7 +489,89 @@ footer {
     top: 160px;
     text-align: start;
     background-color: yellow;
-    height: 60px;
+    height: 40px;
+  }
+
+  .nav-banner-comment {
+    margin: 8px;
+  }
+
+  .top-nav-menu {
+    border: none;
+  }
+
+  .top-nav-menu-logo {
+    display: none;
+  }
+
+  #nav-menu-logo {
+    display: none;
+  }
+
+  .top-nav-menu-links {
+    height: 35px;
+    margin-top: 28px;
+    width: 100%;
+    border: transparent;
+    background-color: white;
+  }
+
+  .top-nav-banner {
+    margin-top: 14px;
+  }
+
+  .nav-menu-link {
+    width: 15px;
+    margin-right: 10px;
+    margin-top: 8px;
+  }
+
+  .menu-links-first {
+    display: flex;
+    margin-top: 6px;
+    margin-left: 115px;
+    width: 100%;
+  }
+
+  .menu-links-first a {
+    margin: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #aaa;
+  }
+
+  .top-nav-menu-fast-links a {
+    text-decoration: none;
+    color: #aaa;
+    margin-left: 5px;
+  }
+
+  .menu-links-first a:hover {
+    color: black;
+  }
+
+  .top-nav-menu-fast-links {
+    position: fixed;
+    width: 100%;
+    padding-left: 16px;
+    margin-left: 100px;
+  }
+
+  .top-nav-menu-fast-links {
+    position: fixed;
+    width: 661px;
+    left: 106px;
+   }
+
+  .top-nav-menu-fast-links a:hover {
+    text-decoration: underline;
+  }
+
+  .top-nav-menu-logo {
+    display: flex;
+    position: relative;
+    bottom: 63px;
+    height: 55px;
   }
 
   main {
@@ -392,7 +579,7 @@ footer {
   }
 
   #highlights-3 {
-      margin-top: 0px;
+      margin-top: 0;
       width: calc(40% - 8px);
       height: 190px;
       float: right;
@@ -412,28 +599,28 @@ footer {
       float: left;
   }
 
-  #highlights-1 .highlight-title{
+  #highlights-1 .highlight-title {
     font-size: 32px;
   }
 
   /** Latest funding STARTS **/
 
-  .latestFunding-header-links{
+  .latestFunding-header-links {
     flex-direction: row;
   }
 
-  .links-lineafter:after{
+  .links-lineafter:after {
     content: ' | ';
     margin-left: 10px;
     margin-right: 10px;
   }
 
-  .latestFunding-body{
+  .latestFunding-body {
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .latestFunding-card{
+  .latestFunding-card {
     width: 32%;
   }
   
@@ -463,24 +650,84 @@ footer {
     width: 20px;
     margin-right: 20px;
   }
+}
 
+/** Tablet ENDS **/
+
+/* Desktop STARTS */
+@media screen and (min-width: 1024px) {
   .top-nav-menu-fast-links {
-   position: fixed;
-   width: 661px;
-   left: 106px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    padding: 8px;
+    margin: 0;
   }
 
-  .top-nav-menu-fast-links a {
-    text-decoration: none;
-    color: white;
-    margin-left: 5px;
+  .top-nav-menu-links {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 28px;
+    border: transparent;
   }
 
-  .top-nav-menu-fast-links a:hover {
-    text-decoration: underline;
+  .menu-links-first {
+    display: flex;
+    width: 90%;
+    padding-left: 8px;
+    margin-top: 8px;
+  }
+
+  .top-nav-menu-logo {
+    display: none;
+  }
+
+  .top-nav-banner {
+    margin-top: 22px;
+    height: 35px;
+    display: flex;
+  }
+
+  .nav-banner-comment {
+    margin: 8px;
+  }
+
+  #highlights-3 {
+    margin-top: 0;
+    width: calc(40% - 8px);
+    height: 222px;
+    float: right;
+    font-size: 20px;
+  }
+
+  #highlights-2 {
+    width: calc(40% - 8px);
+    height: 220px;
+    float: right;
+    font-size: 20px;
+  }
+
+  #highlights-1 {
+    width: calc(60% - 8px);
+    height: 450px;
+    float: left;
+  }
+
+  #highlights-1 .highlight-title {
+    font-size: 32px;
+  }
+
+  .latestFunding-card {
+    width: 24%;
+  }
+
+  #wolt-card {
+    display: block;
   }
 }
 
-/** Tablet STARTS ENDS **/
+/* Desktop ENDS */
 
 /* Media Queries ENDS */
