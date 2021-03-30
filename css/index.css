@@ -242,7 +242,7 @@ header {
 
 .latestFunding-card {
   margin-top: 24px;
-  background-color: rgba(255,68,34,.03)
+  background-color: rgba(255, 68, 34, .03)
 }
 
 .card-name {
@@ -254,7 +254,7 @@ header {
 }
 
 .card-name h4 {
-  margin: 0px;
+  margin: 0;
   padding-top: 10.66px;
 }
 
@@ -342,8 +342,8 @@ footer {
   color: white;
 }
 
-.footer-link{
-  font-family: Maquette,Helvetica Neue,Arial,sans-serif;
+.footer-link {
+  font-family: Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .footer-socialmedia-icons {
@@ -377,10 +377,10 @@ footer {
   margin-top: -16px;
 }
 
-.footer-section-buttom p{
+.footer-section-buttom p {
   color: white;
   text-align: center;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 12px;
 }
 /** Latest funding ENDS **/
@@ -388,8 +388,8 @@ footer {
 /** Footer STARTS ***/
 
 footer {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-section-top {
@@ -422,13 +422,13 @@ footer {
 
 .bx:hover {
   background: #131313;
-  border: #333333 2px solid;
+  border: #333 2px solid;
 }
 
 .footer-links a {
   text-decoration: none;
   font-size: 13px;
-  color: #aaaaaa;
+  color: #aaa;
   font-family: sans-serif;
   margin-bottom: 24px;
   margin-left: 7px;
@@ -741,7 +741,7 @@ footer {
     float: left;
   }
 
-  #highlights-1 .highlight-title{
+  #highlights-1 .highlight-title {
     font-size: 32px;
   }
 
