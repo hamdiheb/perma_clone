@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  margin-top: 300px;
+  margin-top: 250px;
 }
 
 /* General Attributes ENDS */
@@ -20,6 +20,7 @@ main {
   font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding: 0px;
   z-index: 1;
+  min-height: 86px;
 }
 .top-nav-record {
   padding: 2px 16px;
@@ -47,10 +48,15 @@ main {
   color: #fff;
   margin-left: 12px;
 }
+
+.top-nav-menu-fast-links {
+  display: none;
+}
+
 .top-nav-button {
   display: inline-block;
   width: 50%;
-  height: 48px;
+  min-height: 48px;
   background-color: #2D76EE;
   border: 1px solid #fff;
   color: white;
@@ -66,13 +72,14 @@ main {
 }
 .top-nav-menu {
   position: fixed;
-  top: 180px;
+  top: 132px;
   background-color: white;
   width: 100%;
   height: 48px;
   border: 1px solid black;
   border-left: none;
   border-right: none;
+  z-index: 1;
 }
 .top-nav-menu-logo {
   width: 106px;
@@ -90,11 +97,12 @@ main {
 }
 .top-nav-banner {
   position: fixed;
-  top: 231px;
+  top: 180px;
   text-align: start;
   background-color: yellow;
   height: 60px;
   width: 100%;
+  z-index: 1;
 }
 .nav-banner-comment {
   margin-left: 10px;
@@ -102,6 +110,10 @@ main {
 header {
   position: fixed;
   top: 0px;
+}
+
+.top-nav-menu-2 {
+  display: none;
 }
 
 /* NAV BAR FIXED ENDS */
@@ -127,7 +139,7 @@ header {
 
 .highlights p{
   margin: 0;
-  margin-bottom: 6px;
+  margin-bottom: 9px;
   width: 90%;
   padding-right: 32px;
 }
@@ -192,6 +204,10 @@ header {
   margin-top: 11px;
 }
 
+.latestFunding-header-links a:hover{
+  text-decoration: underline;
+}
+
 .latestFunding-body{
   font-family: sans-serif;
   display: flex;
@@ -221,6 +237,7 @@ header {
   height: 60px;
   width: 60px;
   margin: 10.66px;
+  z-index: 1;
 }
 
 .card-price{
@@ -273,10 +290,96 @@ header {
   font-weight: 100px;
 }
 
+#wolt-card{
+  display: none;
+}
+
 .card-description span{
   color: #aaa;
 }
+
 /** Latest funding ENDS **/
+
+/** Footer STARTS ***/
+
+footer {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-section-top {
+  background-color: #191919;
+  max-height: 160px;
+  padding: auto;
+}
+
+.footer-socialmedia-icons,
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer-link{
+  font-family: sans-serif;
+}
+
+.footer-socialmedia-icons {
+  padding-top: 20px;
+}
+
+.bx {
+  margin: 4px;
+  background: #333333;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.bx:hover {
+  background: #131313;
+  border: #333333 2px solid;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #aaaaaa;
+  font-family: sans-serif;
+  margin-bottom: 24px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-section-buttom {
+  background-color: #000;
+  margin-top: -16px;
+  min-height: 97px;
+  display: flex;
+}
+
+.footer-section-buttom p{
+  color: white;
+  text-align: center;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  margin: 22px auto;
+  color: #aaaaaa;
+  max-width: 250px;
+}
+
+.footer-section-buttom p i{
+  color: #fff;
+  font-weight: 700;
+}
+
+/** Footer ENDS ***/
 
 /* MAIN ENDS */
 
@@ -287,11 +390,13 @@ header {
 @media screen and (min-width : 768px) {
   .top-nav-menu {
     position: fixed;
+    top: 120px;
     background-color: white;
     width: 100%;
-    font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
-    padding: 0px;
-    z-index: 1;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
   }
 
   .top-nav-button {
@@ -303,29 +408,84 @@ header {
 
   .top-nav-banner {
     position: fixed;
-    top: 231px;
+    top: 160px;
     text-align: start;
     background-color: yellow;
-    height: 60px;
+    height: 40px;
+  }
+
+  .nav-banner-comment{
+    margin: 8px;
+  }
+
+  
+  .top-nav-menu {
+    border: none;
+  }
+
+  .top-nav-menu-logo{
+    display: none;
+  }
+
+  #nav-menu-logo{
+    display: none;
+  }
+  
+  .top-nav-menu-links {
+    height: 35px;
+    margin-top: 28px;
+    width: 100%;
+    border: transparent;
+    background-color: white;
+  }
+
+  .top-nav-banner {
+    margin-top: 22px;
+  }
+
+  .nav-menu-link {
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  .top-nav-menu-fast-links {
+   position: fixed;
+   width: 100%;
+   padding-left: 16px;
+   padding: 8px;
+  }
+
+  .top-nav-menu-fast-links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+  }
+
+  .top-nav-menu-fast-links a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    margin-top: 220px;
   }
 
   #highlights-3 {
       margin-top: 0px;
-      width: calc(50% - 8px);
+      width: calc(40% - 8px);
       height: 190px;
       float: right;
       font-size: 20px;
   }
 
   #highlights-2 {
-      width: calc(50% - 8px);
+      width: calc(40% - 8px);
       height: 190px;
       float: right;
       font-size: 20px;
   }
   
   #highlights-1 {
-      width: calc(50% - 8px);
+      width: calc(60% - 8px);
       height: 387px;
       float: left;
   }
@@ -354,10 +514,84 @@ header {
   .latestFunding-card{
     width: 32%;
   }
-
+  
+  .top-nav-menu-fast-links {
+    display: flex;
+    background-color: #000;
+  }
   /** Latest funding ENDS **/
 }
 
-/** Tablet STARTS ENDS **/
+/** Tablet ENDS **/
+
+/* Desktop STARTS */
+
+@media screen and (min-width : 1024px) {
+  
+  .top-nav-menu-fast-links {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    padding: 8px;
+   }
+
+  .top-nav-menu-links {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 28px;
+    border: transparent;
+  }
+
+  .top-nav-menu-logo{
+    display: none;
+  }
+
+  .top-nav-banner{
+    margin-top: 22px;
+    height: 35px;
+    display: flex;
+  }
+
+  .nav-banner-comment{
+    margin: 8px;
+  }
+
+  #highlights-3 {
+    margin-top: 0px;
+    width: calc(40% - 8px);
+    height: 222px;
+    float: right;
+    font-size: 20px;
+  }
+
+  #highlights-2 {
+    width: calc(40% - 8px);
+    height: 220px;
+    float: right;
+    font-size: 20px;
+  }
+
+  #highlights-1 {
+    width: calc(60% - 8px);
+    height: 450px;
+    float: left;
+  }
+
+  #highlights-1 .highlight-title{
+    font-size: 32px;
+  }
+
+  .latestFunding-card{
+    width: 24%;
+  }
+
+  #wolt-card{
+    display: block;
+  }
+}
+
+/* Desktop ENDS */
 
 /* Media Queries ENDS */
