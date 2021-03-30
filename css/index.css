@@ -22,10 +22,12 @@ main {
   z-index: 1;
   min-height: 86px;
 }
+
 .top-nav-record {
   padding: 2px 16px;
   max-height: 82px;
 }
+
 .top-nav-record-title {
   height: 20px;
   color: #fff;
@@ -34,6 +36,7 @@ main {
   margin: 0;
   margin-top: 16px;
 }
+
 .top-nav-record-comment {
   color: #fff;
   font-size: 14px;
@@ -42,6 +45,7 @@ main {
   margin: 0;
   margin-bottom: 16px;
 }
+
 .record-comment-link {
   text-decoration: underline;
   color: #fff;
@@ -62,13 +66,16 @@ main {
   border-bottom: none;
   margin-left: -2.5px;
 }
+
 .record-nav-button-img {
   width: 9px;
 }
+
 .top-nav-button:hover {
   background-color: white;
   color: black;
 }
+
 .top-nav-menu {
   position: fixed;
   top: 132px;
@@ -80,10 +87,12 @@ main {
   border-right: none;
   z-index: 1;
 }
+
 .top-nav-menu-logo {
   width: 106px;
   height: 48px;
 }
+
 .top-nav-menu-links {
   display: flex;
   float: right;
@@ -99,6 +108,7 @@ main {
   margin-top: 10px;
   margin-right: 20px;
 }
+
 .top-nav-banner {
   position: fixed;
   top: 180px;
@@ -117,9 +127,11 @@ main {
 .top-nav-banner a:hover {
   text-decoration: underline;
 }
+
 .nav-banner-comment {
   margin-left: 10px;
 }
+
 header {
   position: fixed;
   top: 0px;
@@ -164,6 +176,7 @@ header {
 #highlights-2 {
   background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/screen_image.webp);
 }
+
 #highlights-3 {
   background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/screen_image.webp);
 }
@@ -185,54 +198,54 @@ header {
 }
 
 .highlight-info a:hover {
-    text-decoration: underline;
-    color: #fff;
+  text-decoration: underline;
+  color: #fff;
 }
 
 /* HIGHLIGHTS ENDS */
 
 /** Latest funding STARTS **/
 
-.container-latestFunding{
+.container-latestFunding {
   padding: 20px;
   margin-top: 64px;
   font-family: sans-serif;
 }
 
-.latestFunding-header{
+.latestFunding-header {
   font-size: 28px;
   color: #ff4422;
   font-weight: 700;
 }
 
-.latestFunding-header-links{
+.latestFunding-header-links {
   display: flex;
   flex-direction: column;
 }
 
-.latestFunding-header-links a{
+.latestFunding-header-links a {
   font-size: 14px;
   color: #ff4422;
   text-decoration: none;
   margin-top: 11px;
 }
 
-.latestFunding-header-links a:hover{
+.latestFunding-header-links a:hover {
   text-decoration: underline;
 }
 
-.latestFunding-body{
+.latestFunding-body {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
 }
 
-.latestFunding-card{
+.latestFunding-card {
   margin-top: 24px;
   background-color: rgba(255,68,34,.03)
 }
 
-.card-name{
+.card-name {
   background-color: #ff4422;
   color: #fff;
   min-height: 43.33px;
@@ -240,12 +253,12 @@ header {
   font-size: 18px;
 }
 
-.card-name h4{
+.card-name h4 {
   margin: 0px;
   padding-top: 10.66px;
 }
 
-.labels-img{
+.labels-img {
   position: absolute;
   height: 60px;
   width: 60px;
@@ -253,7 +266,7 @@ header {
   z-index: 1;
 }
 
-.card-price{
+.card-price {
   padding-left: 84px;
   color: #000;
   background-color: rgba(255, 68, 34, .08);
@@ -261,14 +274,14 @@ header {
   height: 48px;
 }
 
-.card-price h4{
+.card-price h4 {
   margin: 0;
   padding-top: 11px;
   font-size: 18px;
   font-weight: 700;
 }
 
-.card-price h5{
+.card-price h5 {
   margin: 0;
   margin-bottom: 11px; 
   font-weight: 100;
@@ -279,35 +292,35 @@ header {
   padding: 16px;
 }
 
-.labels-container{
+.labels-container {
   display: flex;
   padding: 6px;
 }
 
-.labels-container img{
+.labels-container img {
   height: 16px;
   width: 16px;
 }
 
-.labels-container p{
+.labels-container p {
   font-size: 13px;
   margin: 0;
   padding-left: 8px;
   font-weight: 100px;
 }
 
-.card-description{
+.card-description {
   border-top: rgba(255,68,34,.25) 1px solid;
   padding: 16px;
   font-size: 12px;
   font-weight: 100px;
 }
 
-#wolt-card{
+#wolt-card {
   display: none;
 }
 
-.card-description span{
+.card-description span {
   color: #aaa;
 }
 
@@ -375,10 +388,10 @@ footer {
   display: flex;
 }
 
-.footer-section-buttom p{
+.footer-section-buttom p {
   color: white;
   text-align: center;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 12px;
   text-align: center;
   display: block;
@@ -427,20 +440,19 @@ footer {
     height: 40px;
   }
 
-  .nav-banner-comment{
+  .nav-banner-comment {
     margin: 8px;
   }
 
-  
   .top-nav-menu {
     border: none;
   }
 
-  .top-nav-menu-logo{
+  .top-nav-menu-logo {
     display: none;
   }
 
-  #nav-menu-logo{
+  #nav-menu-logo {
     display: none;
   }
   
