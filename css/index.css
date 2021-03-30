@@ -109,16 +109,6 @@ main {
   margin-right: 20px;
 }
 
-.top-nav-banner {
-  position: fixed;
-  top: 180px;
-  text-align: start;
-  background-color: yellow;
-  height: 60px;
-  width: 100%;
-  z-index: 1;
-}
-
 .top-nav-banner a {
   text-decoration: none;
   color: black;
@@ -462,18 +452,6 @@ footer {
     display: none;
   }
 
-  .top-nav-menu-links {
-    height: 35px;
-    margin-top: 28px;
-    width: 100%;
-    border: transparent;
-    background-color: white;
-  }
-
-  .top-nav-banner {
-    margin-top: 14px;
-  }
-
   .nav-menu-link {
     width: 20px;
     margin-right: 20px;
@@ -503,12 +481,6 @@ footer {
   .menu-links-first a:hover {
     color: black;
   }
-
-  .top-nav-menu-fast-links {
-    position: fixed;
-    width: 661px;
-    left: 106px;
-}
 
   .top-nav-menu-fast-links a:hover {
     text-decoration: underline;
@@ -576,11 +548,6 @@ footer {
     background-color: #000;
   }
   /** Latest funding ENDS **/
-
-  .top-nav-menu {
-    border: none;
-  }
-  
   .top-nav-menu-links {
     height: 35px;
     width: 660px;
