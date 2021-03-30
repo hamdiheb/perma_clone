@@ -247,7 +247,7 @@ header {
 
 .latestFunding-card {
   margin-top: 24px;
-  background-color: rgba(255, 68, 34, 0)
+  background-color: rgba(255, 68, 34, 0);
 }
 
 .card-name {
@@ -473,8 +473,8 @@ footer {
   }
 
   .top-nav-menu-fast-links a:hover {
-  text-decoration: underline;
-}
+    text-decoration: underline;
+  }
 
   .top-nav-menu-logo {
     display: flex;
