@@ -393,13 +393,14 @@ footer {
   padding: auto;
 }
 
-.footer-socialmedia-icons, .footer-links {
+.footer-socialmedia-icons,
+.footer-links {
   display: flex;
   justify-content: center;
   color: white;
 }
 
-.footer-link{
+.footer-link {
   font-family: sans-serif;
 }
 
@@ -449,11 +450,11 @@ footer {
   text-align: center;
   display: block;
   margin: 22px auto;
-  color: #aaaaaa;
+  color: #aaa;
   max-width: 250px;
 }
 
-.footer-section-buttom p i{
+.footer-section-buttom p i {
   color: #fff;
   font-weight: 700;
 }
@@ -563,13 +564,16 @@ footer {
   .top-nav-menu-fast-links a:hover {
     text-decoration: underline;
   }
+
   /****/
+
   .top-nav-menu-logo {
     display: flex;
     position: relative;
     bottom: 63px;
     height: 55px;
   }
+
   /****/
 
   main {
@@ -581,7 +585,7 @@ footer {
   }
 
   #highlights-3 {
-      margin-top: 0px;
+      margin-top: 0;
       width: calc(40% - 8px);
       height: 190px;
       float: right;
@@ -601,28 +605,28 @@ footer {
       float: left;
   }
 
-  #highlights-1 .highlight-title{
+  #highlights-1 .highlight-title {
     font-size: 32px;
   }
 
   /** Latest funding STARTS **/
 
-  .latestFunding-header-links{
+  .latestFunding-header-links {
     flex-direction: row;
   }
 
-  .links-lineafter:after{
+  .links-lineafter:after {
     content: ' | ';
     margin-left: 10px;
     margin-right: 10px;
   }
 
-  .latestFunding-body{
+  .latestFunding-body {
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .latestFunding-card{
+  .latestFunding-card {
     width: 32%;
   }
   
@@ -693,25 +697,24 @@ footer {
     border: transparent;
   }
 
-  .menu-links-first{
+  .menu-links-first {
     display: flex;
     width: 90%;
     padding-left: 8px;
     margin-top: 8px;
-    
   }
 
-  .top-nav-menu-logo{
+  .top-nav-menu-logo {
     display: none;
   }
 
-  .top-nav-banner{
+  .top-nav-banner {
     margin-top: 22px;
     height: 35px;
     display: flex;
   }
 
-  .nav-banner-comment{
+  .nav-banner-comment {
     margin: 8px;
   }
 
@@ -740,11 +743,11 @@ footer {
     font-size: 32px;
   }
 
-  .latestFunding-card{
+  .latestFunding-card {
     width: 24%;
   }
 
-  #wolt-card{
+  #wolt-card {
     display: block;
   }
 }
