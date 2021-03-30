@@ -1,8 +1,8 @@
 /* General Attributes STARTS */
 
 body {
-  padding: auto;
-  margin: auto;
+  padding: 0;
+  margin: 0;
 }
 
 main {
@@ -18,7 +18,7 @@ main {
   background-color: #2D76EE;
   width: 100%;
   font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
-  padding: 0px;
+  padding: 0;
   z-index: 1;
   min-height: 86px;
 }
@@ -60,7 +60,7 @@ main {
   display: inline-block;
   width: 50%;
   min-height: 48px;
-  background-color: #2D76EE;
+  background-color: #2d76ee;
   border: 1px solid #fff;
   color: white;
   border-bottom: none;
@@ -124,6 +124,11 @@ main {
   color: black;
 }
 
+.highlight-info a {
+  color: #fff9;
+  text-decoration: none;
+}
+
 .top-nav-banner a:hover {
   text-decoration: underline;
 }
@@ -134,7 +139,7 @@ main {
 
 header {
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
 .top-nav-menu-2 {
@@ -151,7 +156,7 @@ header {
   min-height: 190px;
   color: #fff;
   font-size: 100%;
-  font-family: Avalon,sans-serif;
+  font-family: Avalon, sans-serif;
   font-weight: 700;
   display: flex;
   flex-direction: column-reverse;
@@ -162,23 +167,23 @@ header {
   align-content: flex-start;
 }
 
-.highlights p{
+.highlights p {
   margin: 0;
   margin-bottom: 9px;
   width: 90%;
   padding-right: 32px;
 }
 
-#highlights-1{
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/blue_shape.webp);
+#highlights-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/blue_shape.webp);
 }
 
 #highlights-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/screen_image.webp);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/screen_image.webp);
 }
 
 #highlights-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/screen_image.webp);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/screen_image.webp);
 }
 
 .highlight-title {
@@ -187,14 +192,8 @@ header {
 
 .highlight-info {
   text-decoration: none;
-  color: #ffffff99;
+  color: #fff9;
   font-size: 14px;
-  
-}
-
-.highlight-info a {
-  color: #ffffff99;
-  text-decoration: none;
 }
 
 .highlight-info a:hover {
