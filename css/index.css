@@ -561,6 +561,12 @@ footer {
     margin-left: 5px;
   }
 
+  .top-nav-menu-fast-links {
+    position: fixed;
+    width: 661px;
+    left: 106px;
+   }
+   
   .top-nav-menu-fast-links a:hover {
     text-decoration: underline;
   }
@@ -656,24 +662,12 @@ footer {
     width: 20px;
     margin-right: 20px;
   }
-
-  .top-nav-menu-fast-links {
-   position: fixed;
-   width: 661px;
-   left: 106px;
-  }
-
-  .top-nav-menu-fast-links a {
-    text-decoration: none;
-    color: white;
-    margin-left: 5px;
-  }
 }
 
 /** Tablet ENDS **/
 
 /* Desktop STARTS */
-@media screen and (min-width : 1024px) {
+@media screen and (min-width: 1024px) {
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
