@@ -323,6 +323,21 @@ header {
   color: #aaa;
 }
 
+#wolt-card {
+  display: none;
+}
+
+.card-description span {
+  color: #aaa;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px;
+  color: white;
+}
+
 .footer-section-top {
   background-color: #191919;
   height: 100px;
@@ -355,13 +370,6 @@ header {
   background: gray;
 }
 
-.footer-links a {
-  text-decoration: none;
-  font-size: 14px;
-  margin: 5px;
-  color: white;
-}
-
 .footer-links a:hover {
   text-decoration: underline;
 }
@@ -379,6 +387,88 @@ header {
 }
 
 /** Latest funding ENDS **/
+
+/** Footer STARTS ***/
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section-top {
+  background-color: #191919;
+  max-height: 160px;
+  padding: 0;
+}
+
+.footer-socialmedia-icons,
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer-link {
+  font-family: sans-serif;
+}
+
+.footer-socialmedia-icons {
+  padding-top: 20px;
+}
+
+.bx {
+  margin: 4px;
+  background: #333;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.bx:hover {
+  background: #131313;
+  border: #333 2px solid;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #aaa;
+  font-family: sans-serif;
+  margin-bottom: 24px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-section-buttom {
+  background-color: #000;
+  margin-top: -16px;
+  min-height: 97px;
+  display: flex;
+}
+
+.footer-section-buttom p {
+  color: white;
+  text-align: center;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 12px;
+  display: block;
+  margin: 22px auto;
+  color: #aaa;
+  max-width: 250px;
+}
+
+/** Latest funding ENDS **/
+
+.footer-section-buttom p i {
+  color: #fff;
+  font-weight: 700;
+}
+
+/** Footer ENDS ***/
 
 /** Footer STARTS ***/
 
@@ -523,6 +613,7 @@ footer {
   .nav-menu-link {
     width: 20px;
     margin-right: 20px;
+    margin-top: 8px;
   }
 
   .menu-links-first {
@@ -539,6 +630,12 @@ footer {
     color: #aaa;
   }
 
+  .top-nav-menu-fast-links a {
+    text-decoration: none;
+    color: #aaa;
+    margin-left: 5px;
+  }
+  
   .menu-links-first a:hover {
     color: black;
   }
@@ -548,12 +645,6 @@ footer {
     width: 100%;
     padding-left: 16px;
     margin-left: 100px;
-  }
-
-  .top-nav-menu-fast-links a {
-    text-decoration: none;
-    color: #aaa;
-    margin-left: 5px;
   }
 
   .top-nav-menu-fast-links {
@@ -566,19 +657,11 @@ footer {
     text-decoration: underline;
   }
 
-  /****/
-
   .top-nav-menu-logo {
     display: flex;
     position: relative;
     bottom: 63px;
     height: 55px;
-  }
-
-  /****/
-
-  main {
-    margin-top: 220px;
   }
 
   main {
@@ -653,8 +736,6 @@ footer {
     margin-top: 6px;
   }
 }
-
-/** Tablet ENDS **/
 
 /* Desktop STARTS */
 @media screen and (min-width: 1024px) {
