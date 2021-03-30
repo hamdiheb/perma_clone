@@ -135,6 +135,13 @@ main {
   color: white;
 }
 
+.latestFunding-header-links a {
+  font-size: 14px;
+  color: #f42;
+  text-decoration: none;
+  margin-top: 11px;
+}
+
 .top-nav-banner a:hover {
   text-decoration: underline;
 }
@@ -200,13 +207,6 @@ header {
   text-decoration: none;
   color: #fff9;
   font-size: 14px;
-}
-
-.latestFunding-header-links a {
-  font-size: 14px;
-  color: #f42;
-  text-decoration: none;
-  margin-top: 11px;
 }
 
 .highlight-info a:hover {
@@ -329,22 +329,8 @@ header {
   color: #aaa;
 }
 
-.footer-section-top {
-  background-color: #191919;
-  height: 100px;
-}
-
-.footer-socialmedia-icons,
-
 .footer-link {
   font-family: Maquette, Helvetica Neue, Arial, sans-serif;
-}
-
-.footer-section-buttom p {
-  color: white;
-  text-align: center;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 12px;
 }
 
 /** Latest funding ENDS **/
@@ -362,65 +348,6 @@ footer {
   padding: 0;
 }
 
-.footer-socialmedia-icons {
-  padding-top: 20px;
-}
-
-.bx {
-  margin: 4px;
-  background: #333;
-  padding: 8px;
-  border: 1px solid #000;
-  border-radius: 50%;
-}
-
-.bx:hover {
-  background: #131313;
-  border: #333 2px solid;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
-}
-
-
-/** Footer ENDS ***/
-
-/** Footer STARTS ***/
-
-footer {
-  margin: 0;
-  padding: 0;
-}
-
-.footer-socialmedia-icons,
-.footer-links {
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-
-.footer-link {
-  font-family: sans-serif;
-}
-
-.footer-socialmedia-icons {
-  padding-top: 20px;
-}
-
-.bx {
-  margin: 4px;
-  background: #333;
-  padding: 8px;
-  border: 1px solid #000;
-  border-radius: 50%;
-}
-
-.bx:hover {
-  background: #131313;
-  border: #333 2px solid;
-}
-
 .footer-links a {
   text-decoration: none;
   font-size: 13px;
@@ -433,6 +360,36 @@ footer {
 
 .footer-links a:hover {
   text-decoration: underline;
+}
+
+
+/** Footer ENDS ***/
+
+/** Footer STARTS ***/
+
+.footer-socialmedia-icons,
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.footer-link {
+  font-family: sans-serif;
+}
+
+.bx {
+  margin: 4px;
+  background: #333;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.bx:hover {
+  background: #131313;
+  border: #333 2px solid;
 }
 
 .footer-section-buttom {
@@ -475,6 +432,7 @@ footer {
     border: 1px solid black;
     border-left: none;
     border-right: none;
+    border: none;
   }
 
   .top-nav-button {
@@ -494,10 +452,6 @@ footer {
 
   .nav-banner-comment {
     margin: 8px;
-  }
-
-  .top-nav-menu {
-    border: none;
   }
 
   .top-nav-menu-logo {
@@ -548,13 +502,6 @@ footer {
 
   .menu-links-first a:hover {
     color: black;
-  }
-
-  .top-nav-menu-fast-links {
-    position: fixed;
-    width: 100%;
-    padding-left: 16px;
-    margin-left: 100px;
   }
 
   .top-nav-menu-fast-links {
