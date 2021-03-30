@@ -90,6 +90,11 @@ main {
   float: right;
   justify-content: flex-end;
 }
+
+.menu-links-first {
+  display: none;
+}
+
 .nav-menu-link {
   width: 25px;
   margin-top: 10px;
@@ -103,6 +108,15 @@ main {
   height: 60px;
   width: 100%;
   z-index: 1;
+}
+
+.top-nav-banner a {
+  text-decoration: none;
+  color: black;
+}
+
+.top-nav-banner a:hover {
+  text-decoration: underline;
 }
 .nav-banner-comment {
   margin-left: 10px;
@@ -440,19 +454,39 @@ footer {
   }
 
   .top-nav-banner {
-    margin-top: 22px;
+    margin-top: 14px;
+    height: 25;
   }
 
   .nav-menu-link {
-    width: 20px;
-    margin-right: 20px;
+    width: 15px;
+    margin-right: 10px;
+    margin-top: 8px;
+  }
+
+  .menu-links-first {
+    display: flex;
+    margin-top: 6px;
+    margin-right: 158px;
+  }
+
+  .menu-links-first a {
+    margin: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #aaa;
+  }
+
+  .menu-links-first a:hover {
+    color: black;
   }
 
   .top-nav-menu-fast-links {
    position: fixed;
-   width: 100%;
+   width: 660px;
    padding-left: 16px;
    padding: 8px;
+   margin-left: 100px;
   }
 
   .top-nav-menu-fast-links a {
@@ -464,6 +498,14 @@ footer {
   .top-nav-menu-fast-links a:hover {
     text-decoration: underline;
   }
+  /****/
+  .top-nav-menu-logo {
+    display: flex;
+    position: relative;
+    bottom: 63px;
+    height: 55px;
+  }
+  /****/
 
   main {
     margin-top: 220px;
