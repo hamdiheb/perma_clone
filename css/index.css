@@ -668,25 +668,19 @@ footer {
     color: white;
     margin-left: 5px;
   }
-
-  .top-nav-menu-fast-links a:hover {
-    text-decoration: underline;
-  }
 }
 
 /** Tablet ENDS **/
 
 /* Desktop STARTS */
-
 @media screen and (min-width : 1024px) {
-  
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
-    left: 0px;
+    left: 0;
     padding: 8px;
-    margin: 0px;
-   }
+    margin: 0;
+  }
 
   .top-nav-menu-links {
     display: flex;
@@ -719,7 +713,7 @@ footer {
   }
 
   #highlights-3 {
-    margin-top: 0px;
+    margin-top: 0;
     width: calc(40% - 8px);
     height: 222px;
     float: right;
