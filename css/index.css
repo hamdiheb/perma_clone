@@ -390,7 +390,7 @@ footer {
 .footer-section-top {
   background-color: #191919;
   max-height: 160px;
-  padding: auto;
+  padding: 0;
 }
 
 .footer-socialmedia-icons,
@@ -410,7 +410,7 @@ footer {
 
 .bx {
   margin: 4px;
-  background: #333333;
+  background: #333;
   padding: 8px;
   border: 1px solid #000;
   border-radius: 50%;
@@ -443,11 +443,9 @@ footer {
 }
 
 .footer-section-buttom p {
-  color: white;
   text-align: center;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 12px;
-  text-align: center;
   display: block;
   margin: 22px auto;
   color: #aaa;
@@ -467,7 +465,7 @@ footer {
 
 /** Tablet STARTS **/
 
-@media screen and (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .top-nav-menu {
     position: fixed;
     top: 120px;
@@ -509,7 +507,7 @@ footer {
   #nav-menu-logo {
     display: none;
   }
-  
+
   .top-nav-menu-links {
     height: 35px;
     margin-top: 28px;
@@ -520,7 +518,6 @@ footer {
 
   .top-nav-banner {
     margin-top: 14px;
-    height: 25;
   }
 
   .nav-menu-link {
@@ -548,11 +545,10 @@ footer {
   }
 
   .top-nav-menu-fast-links {
-   position: fixed;
-   width: 100%;
-   padding-left: 16px;
-   padding: 8px;
-   margin-left: 100px;
+    position: fixed;
+    width: 100%;
+    padding-left: 16px;
+    margin-left: 100px;
   }
 
   .top-nav-menu-fast-links a {
@@ -566,7 +562,7 @@ footer {
     width: 661px;
     left: 106px;
    }
-   
+
   .top-nav-menu-fast-links a:hover {
     text-decoration: underline;
   }
