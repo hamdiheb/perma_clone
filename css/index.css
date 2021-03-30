@@ -247,7 +247,7 @@ header {
 
 .latestFunding-card {
   margin-top: 24px;
-  background-color: rgba(255, 68, 34, 0.03)
+  background-color: rgba(255, 68, 34, 0)
 }
 
 .card-name {
@@ -437,7 +437,7 @@ footer {
   .nav-banner-comment {
     margin: 8px;
   }
-  
+
   #nav-menu-logo {
     display: none;
   }
@@ -473,7 +473,7 @@ footer {
   }
 
   .top-nav-menu-fast-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
   .top-nav-menu-logo {
@@ -516,12 +516,6 @@ footer {
 
   .latestFunding-header-links {
     flex-direction: row;
-  }
-
-  .links-lineafter:after {
-    content: ' | ';
-    margin-left: 10px;
-    margin-right: 10px;
   }
 
   .latestFunding-body {
