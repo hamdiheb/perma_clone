@@ -15,7 +15,7 @@ main {
 
 .top-nav {
   position: fixed;
-  background-color: #2D76EE;
+  background-color: #2d76ee;
   width: 100%;
   font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding: 0;
@@ -213,7 +213,7 @@ header {
 
 .latestFunding-header {
   font-size: 28px;
-  color: #ff4422;
+  color: #f42;
   font-weight: 700;
 }
 
@@ -224,17 +224,16 @@ header {
 
 .latestFunding-header-links a {
   font-size: 14px;
-  color: #ff4422;
+  color: #f42;
   text-decoration: none;
   margin-top: 11px;
 }
-
 
 .latestFunding-header-links a:hover {
   text-decoration: underline;
 }
 
-.latestFunding-body{
+.latestFunding-body {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
@@ -242,11 +241,11 @@ header {
 
 .latestFunding-card {
   margin-top: 24px;
-  background-color: rgba(255, 68, 34, .03)
+  background-color: rgba(255, 68, 34, 0.03)
 }
 
 .card-name {
-  background-color: #ff4422;
+  background-color: #f42;
   color: #fff;
   min-height: 43.33px;
   padding-left: 84px;
@@ -269,7 +268,7 @@ header {
 .card-price {
   padding-left: 84px;
   color: #000;
-  background-color: rgba(255, 68, 34, .08);
+  background-color: rgba(255, 68, 34, 0.08);
   margin: 0;
   height: 48px;
 }
@@ -283,7 +282,7 @@ header {
 
 .card-price h5 {
   margin: 0;
-  margin-bottom: 11px; 
+  margin-bottom: 11px;
   font-weight: 100;
   font-size: 11px;
 }
@@ -306,14 +305,14 @@ header {
   font-size: 13px;
   margin: 0;
   padding-left: 8px;
-  font-weight: 100px;
+  font-weight: 100;
 }
 
 .card-description {
-  border-top: rgba(255, 68, 34, .25) 1px solid;
+  border-top: rgba(255, 68, 34, 0.25) 1px solid;
   padding: 16px;
   font-size: 12px;
-  font-weight: 100px;
+  font-weight: 100;
 }
 
 #wolt-card {
@@ -322,12 +321,6 @@ header {
 
 .card-description span {
   color: #aaa;
-}
-
-/** Footer ***/
-footer {
-  margin: 0px;
-  padding: 0px;
 }
 
 .footer-section-top {
@@ -372,6 +365,7 @@ footer {
 .footer-links a:hover {
   text-decoration: underline;
 }
+
 .footer-section-buttom {
   background-color: #000;
   margin-top: -16px;
@@ -383,6 +377,7 @@ footer {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 12px;
 }
+
 /** Latest funding ENDS **/
 
 /** Footer STARTS ***/
