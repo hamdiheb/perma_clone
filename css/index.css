@@ -230,11 +230,12 @@ header {
   margin-top: 11px;
 }
 
+
 .latestFunding-header-links a:hover {
   text-decoration: underline;
 }
 
-.latestFunding-body {
+.latestFunding-body{
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
@@ -324,6 +325,65 @@ header {
   color: #aaa;
 }
 
+/** Footer ***/
+footer {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-section-top {
+  background-color: #191919;
+  height: 100px;
+}
+
+.footer-socialmedia-icons,
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer-link{
+  font-family: Maquette,Helvetica Neue,Arial,sans-serif;
+}
+
+.footer-socialmedia-icons {
+  padding-top: 20px;
+}
+
+.bx {
+  margin: 5px;
+  background: #000;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.bx:hover {
+  background: gray;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px;
+  color: white;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.footer-section-buttom {
+  background-color: #000;
+  margin-top: -16px;
+}
+
+.footer-section-buttom p{
+  color: white;
+  text-align: center;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-size: 12px;
+}
 /** Latest funding ENDS **/
 
 /** Footer STARTS ***/
@@ -522,6 +582,10 @@ footer {
     margin-top: 220px;
   }
 
+  main {
+    margin-top: 220px;
+  }
+
   #highlights-3 {
       margin-top: 0px;
       width: calc(40% - 8px);
@@ -573,6 +637,43 @@ footer {
     background-color: #000;
   }
   /** Latest funding ENDS **/
+
+  .top-nav-menu {
+    border: none;
+  }
+  
+  .top-nav-menu-links {
+    height: 35px;
+    width: 660px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    background-color: white;
+  }
+
+  .top-nav-banner {
+    margin-top: 6px;
+  }
+
+  .nav-menu-link {
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  .top-nav-menu-fast-links {
+   position: fixed;
+   width: 661px;
+   left: 106px;
+  }
+
+  .top-nav-menu-fast-links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+  }
+
+  .top-nav-menu-fast-links a:hover {
+    text-decoration: underline;
+  }
 }
 
 /** Tablet ENDS **/
