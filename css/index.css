@@ -339,8 +339,7 @@ footer {
   padding: auto;
 }
 
-.footer-socialmedia-icons,
-.footer-links {
+.footer-socialmedia-icons, .footer-links {
   display: flex;
   justify-content: center;
   color: white;
@@ -478,7 +477,8 @@ footer {
   .menu-links-first {
     display: flex;
     margin-top: 6px;
-    margin-right: 158px;
+    margin-left: 115px;
+    width: 100%;
   }
 
   .menu-links-first a {
@@ -494,7 +494,7 @@ footer {
 
   .top-nav-menu-fast-links {
    position: fixed;
-   width: 660px;
+   width: 100%;
    padding-left: 16px;
    padding: 8px;
    margin-left: 100px;
@@ -503,7 +503,7 @@ footer {
   .top-nav-menu-fast-links a {
     text-decoration: none;
     color: #aaa;
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .top-nav-menu-fast-links a:hover {
