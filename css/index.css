@@ -1,0 +1,363 @@
+/* General Attributes STARTS */
+
+body {
+  padding: auto;
+  margin: auto;
+}
+
+main {
+  margin-top: 300px;
+}
+
+/* General Attributes ENDS */
+
+/* NAV BAR FIXED STARTS */
+
+.top-nav {
+  position: fixed;
+  background-color: #2D76EE;
+  width: 100%;
+  font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+  padding: 0px;
+  z-index: 1;
+}
+.top-nav-record {
+  padding: 2px 16px;
+  max-height: 82px;
+}
+.top-nav-record-title {
+  width: 100%;
+  height: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  margin: 0;
+  margin-top: 16px;
+}
+.top-nav-record-comment {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  display: flex;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.record-comment-link {
+  text-decoration: underline;
+  color: #fff;
+  margin-left: 12px;
+}
+.top-nav-button {
+  display: inline-block;
+  width: 50%;
+  height: 48px;
+  background-color: #2D76EE;
+  border: 1px solid #fff;
+  color: white;
+  border-bottom: none;
+  margin-left: -2.5px;
+}
+.record-nav-button-img {
+  width: 9px;
+}
+.top-nav-button:hover {
+  background-color: white;
+  color: black;
+}
+.top-nav-menu {
+  position: fixed;
+  top: 180px;
+  background-color: white;
+  width: 100%;
+  height: 48px;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+}
+.top-nav-menu-logo {
+  width: 106px;
+  height: 48px;
+}
+.top-nav-menu-links {
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+}
+.nav-menu-link {
+  width: 25px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.top-nav-banner {
+  position: fixed;
+  top: 231px;
+  text-align: start;
+  background-color: yellow;
+  height: 60px;
+  width: 100%;
+}
+.nav-banner-comment {
+  margin-left: 10px;
+}
+header {
+  position: fixed;
+  top: 0px;
+}
+
+/* NAV BAR FIXED ENDS */
+
+/* MAIN STARTS */
+
+/* HIGHLIGHTS STARTS */
+
+.highlights {
+  min-height: 190px;
+  color: #fff;
+  font-size: 100%;
+  font-family: Avalon,sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column-reverse;
+  background-size: cover;
+  background-position: center;
+  margin: -4px 4px 8px 4px;
+  align-items: flex-end;
+  align-content: flex-start;
+}
+
+.highlights p{
+  margin: 0;
+  margin-bottom: 6px;
+  width: 90%;
+  padding-right: 32px;
+}
+
+#highlights-1{
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/blue_shape.webp);
+}
+
+#highlights-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/screen_image.webp);
+}
+#highlights-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0,0,0,0) 100%), url(../img/screen_image.webp);
+}
+
+.highlight-title {
+  font-size: 20px;
+}
+
+.highlight-info {
+  text-decoration: none;
+  color: #ffffff99;
+  font-size: 14px;
+  
+}
+
+.highlight-info a {
+  color: #ffffff99;
+  text-decoration: none;
+}
+
+.highlight-info a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* HIGHLIGHTS ENDS */
+
+/** Latest funding STARTS **/
+
+.container-latestFunding{
+  padding: 20px;
+  margin-top: 64px;
+  font-family: sans-serif;
+}
+
+.latestFunding-header{
+  font-size: 28px;
+  color: #ff4422;
+  font-weight: 700;
+}
+
+.latestFunding-header-links{
+  display: flex;
+  flex-direction: column;
+}
+
+.latestFunding-header-links a{
+  font-size: 14px;
+  color: #ff4422;
+  text-decoration: none;
+  margin-top: 11px;
+}
+
+.latestFunding-body{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.latestFunding-card{
+  margin-top: 24px;
+  background-color: rgba(255,68,34,.03)
+}
+
+.card-name{
+  background-color: #ff4422;
+  color: #fff;
+  min-height: 43.33px;
+  padding-left: 84px;
+  font-size: 18px;
+}
+
+.card-name h4{
+  margin: 0px;
+  padding-top: 10.66px;
+}
+
+.labels-img{
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  margin: 10.66px;
+}
+
+.card-price{
+  padding-left: 84px;
+  color: #000;
+  background-color: rgba(255, 68, 34, .08);
+  margin: 0;
+  height: 48px;
+}
+
+.card-price h4{
+  margin: 0;
+  padding-top: 11px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-price h5{
+  margin: 0;
+  margin-bottom: 11px; 
+  font-weight: 100;
+  font-size: 11px;
+}
+
+.card-labels {
+  padding: 16px;
+}
+
+.labels-container{
+  display: flex;
+  padding: 6px;
+}
+
+.labels-container img{
+  height: 16px;
+  width: 16px;
+}
+
+.labels-container p{
+  font-size: 13px;
+  margin: 0;
+  padding-left: 8px;
+  font-weight: 100px;
+}
+
+.card-description{
+  border-top: rgba(255,68,34,.25) 1px solid;
+  padding: 16px;
+  font-size: 12px;
+  font-weight: 100px;
+}
+
+.card-description span{
+  color: #aaa;
+}
+/** Latest funding ENDS **/
+
+/* MAIN ENDS */
+
+/* Media Queries STARTS */
+
+/** Tablet STARTS **/
+
+@media screen and (min-width : 768px) {
+  .top-nav-menu {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+    padding: 0px;
+    z-index: 1;
+  }
+
+  .top-nav-button {
+    background-color: #2d76ee;
+    border: 1px solid #fff;
+    color: white;
+    border-bottom: none;
+  }
+
+  .top-nav-banner {
+    position: fixed;
+    top: 231px;
+    text-align: start;
+    background-color: yellow;
+    height: 60px;
+  }
+
+  #highlights-3 {
+      margin-top: 0px;
+      width: calc(50% - 8px);
+      height: 190px;
+      float: right;
+      font-size: 20px;
+  }
+
+  #highlights-2 {
+      width: calc(50% - 8px);
+      height: 190px;
+      float: right;
+      font-size: 20px;
+  }
+  
+  #highlights-1 {
+      width: calc(50% - 8px);
+      height: 387px;
+      float: left;
+  }
+
+  #highlights-1 .highlight-title{
+    font-size: 32px;
+  }
+
+  /** Latest funding STARTS **/
+
+  .latestFunding-header-links{
+    flex-direction: row;
+  }
+
+  .links-lineafter:after{
+    content: ' | ';
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .latestFunding-body{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .latestFunding-card{
+    width: 32%;
+  }
+
+  /** Latest funding ENDS **/
+}
+
+/** Tablet STARTS ENDS **/
+
+/* Media Queries ENDS */
