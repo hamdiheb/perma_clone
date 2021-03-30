@@ -27,7 +27,6 @@ main {
   max-height: 82px;
 }
 .top-nav-record-title {
-  width: 100%;
   height: 20px;
   color: #fff;
   font-weight: 700;
@@ -491,7 +490,7 @@ footer {
 
   .top-nav-menu-fast-links a {
     text-decoration: none;
-    color: white;
+    color: #aaa;
     margin-left: 5px;
   }
 
@@ -575,6 +574,7 @@ footer {
     width: 100%;
     left: 0px;
     padding: 8px;
+    margin: 0px;
    }
 
   .top-nav-menu-links {
@@ -584,6 +584,14 @@ footer {
     width: 100%;
     margin-top: 28px;
     border: transparent;
+  }
+
+  .menu-links-first{
+    display: flex;
+    width: 90%;
+    padding-left: 8px;
+    margin-top: 8px;
+    
   }
 
   .top-nav-menu-logo{
