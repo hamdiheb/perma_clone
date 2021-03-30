@@ -129,6 +129,12 @@ main {
   text-decoration: none;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
 .top-nav-banner a:hover {
   text-decoration: underline;
 }
@@ -196,6 +202,13 @@ header {
   font-size: 14px;
 }
 
+.latestFunding-header-links a {
+  font-size: 14px;
+  color: #f42;
+  text-decoration: none;
+  margin-top: 11px;
+}
+
 .highlight-info a:hover {
   text-decoration: underline;
   color: #fff;
@@ -220,13 +233,6 @@ header {
 .latestFunding-header-links {
   display: flex;
   flex-direction: column;
-}
-
-.latestFunding-header-links a {
-  font-size: 14px;
-  color: #f42;
-  text-decoration: none;
-  margin-top: 11px;
 }
 
 .latestFunding-header-links a:hover {
@@ -323,60 +329,15 @@ header {
   color: #aaa;
 }
 
-#wolt-card {
-  display: none;
-}
-
-.card-description span {
-  color: #aaa;
-}
-
-.footer-links a {
-  text-decoration: none;
-  font-size: 14px;
-  margin: 5px;
-  color: white;
-}
-
 .footer-section-top {
   background-color: #191919;
   height: 100px;
 }
 
 .footer-socialmedia-icons,
-.footer-links {
-  display: flex;
-  justify-content: center;
-  color: white;
-}
 
 .footer-link {
   font-family: Maquette, Helvetica Neue, Arial, sans-serif;
-}
-
-.footer-socialmedia-icons {
-  padding-top: 20px;
-}
-
-.bx {
-  margin: 5px;
-  background: #000;
-  padding: 5px;
-  border: 1px solid #000;
-  border-radius: 50%;
-}
-
-.bx:hover {
-  background: gray;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
-}
-
-.footer-section-buttom {
-  background-color: #000;
-  margin-top: -16px;
 }
 
 .footer-section-buttom p {
@@ -399,17 +360,6 @@ footer {
   background-color: #191919;
   max-height: 160px;
   padding: 0;
-}
-
-.footer-socialmedia-icons,
-.footer-links {
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-
-.footer-link {
-  font-family: sans-serif;
 }
 
 .footer-socialmedia-icons {
@@ -429,44 +379,10 @@ footer {
   border: #333 2px solid;
 }
 
-.footer-links a {
-  text-decoration: none;
-  font-size: 13px;
-  color: #aaa;
-  font-family: sans-serif;
-  margin-bottom: 24px;
-  margin-left: 7px;
-  margin-right: 7px;
-}
-
 .footer-links a:hover {
   text-decoration: underline;
 }
 
-.footer-section-buttom {
-  background-color: #000;
-  margin-top: -16px;
-  min-height: 97px;
-  display: flex;
-}
-
-.footer-section-buttom p {
-  color: white;
-  text-align: center;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 12px;
-  display: block;
-  margin: 22px auto;
-  color: #aaa;
-  max-width: 250px;
-}
-
-/** Latest funding ENDS **/
-
-.footer-section-buttom p i {
-  color: #fff;
-  font-weight: 700;
-}
 
 /** Footer ENDS ***/
 
@@ -474,12 +390,6 @@ footer {
 
 footer {
   margin: 0;
-  padding: 0;
-}
-
-.footer-section-top {
-  background-color: #191919;
-  max-height: 160px;
   padding: 0;
 }
 
@@ -635,7 +545,7 @@ footer {
     color: #aaa;
     margin-left: 5px;
   }
-  
+
   .menu-links-first a:hover {
     color: black;
   }
@@ -651,11 +561,11 @@ footer {
     position: fixed;
     width: 661px;
     left: 106px;
-   }
+}
 
   .top-nav-menu-fast-links a:hover {
     text-decoration: underline;
-  }
+}
 
   .top-nav-menu-logo {
     display: flex;
