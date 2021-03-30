@@ -352,7 +352,6 @@ footer {
   text-decoration: underline;
 }
 
-
 /** Footer ENDS ***/
 
 /** Footer STARTS ***/
@@ -422,7 +421,6 @@ footer {
     border: 1px solid black;
     border-left: none;
     border-right: none;
-    border: none;
   }
 
   .top-nav-button {
@@ -498,24 +496,24 @@ footer {
   }
 
   #highlights-3 {
-      margin-top: 0;
-      width: calc(40% - 8px);
-      height: 190px;
-      float: right;
-      font-size: 20px;
+    margin-top: 0;
+    width: calc(40% - 8px);
+    height: 190px;
+    float: right;
+    font-size: 20px;
   }
 
   #highlights-2 {
-      width: calc(40% - 8px);
-      height: 190px;
-      float: right;
-      font-size: 20px;
+    width: calc(40% - 8px);
+    height: 190px;
+    float: right;
+    font-size: 20px;
   }
-  
+
   #highlights-1 {
-      width: calc(60% - 8px);
-      height: 387px;
-      float: left;
+    width: calc(60% - 8px);
+    height: 387px;
+    float: left;
   }
 
   #highlights-1 .highlight-title {
@@ -542,11 +540,12 @@ footer {
   .latestFunding-card {
     width: 32%;
   }
-  
+
   .top-nav-menu-fast-links {
     display: flex;
     background-color: #000;
   }
+
   /** Latest funding ENDS **/
   .top-nav-menu-links {
     height: 35px;
