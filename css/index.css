@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  margin-top: 300px;
+  margin-top: 250px;
 }
 
 /* General Attributes ENDS */
@@ -47,6 +47,11 @@ main {
   color: #fff;
   margin-left: 12px;
 }
+
+.top-nav-menu-fast-links {
+  display: none;
+}
+
 .top-nav-button {
   display: inline-block;
   width: 50%;
@@ -66,13 +71,14 @@ main {
 }
 .top-nav-menu {
   position: fixed;
-  top: 180px;
+  top: 132px;
   background-color: white;
   width: 100%;
   height: 48px;
   border: 1px solid black;
   border-left: none;
   border-right: none;
+  z-index: 1;
 }
 .top-nav-menu-logo {
   width: 106px;
@@ -90,11 +96,12 @@ main {
 }
 .top-nav-banner {
   position: fixed;
-  top: 231px;
+  top: 180px;
   text-align: start;
   background-color: yellow;
   height: 60px;
   width: 100%;
+  z-index: 1;
 }
 .nav-banner-comment {
   margin-left: 10px;
@@ -102,6 +109,10 @@ main {
 header {
   position: fixed;
   top: 0px;
+}
+
+.top-nav-menu-2 {
+  display: none;
 }
 
 /* NAV BAR FIXED ENDS */
@@ -127,7 +138,7 @@ header {
 
 .highlights p{
   margin: 0;
-  margin-bottom: 6px;
+  margin-bottom: 9px;
   width: 90%;
   padding-right: 32px;
 }
@@ -190,6 +201,10 @@ header {
   color: #ff4422;
   text-decoration: none;
   margin-top: 11px;
+}
+
+.latestFunding-header-links a:hover{
+  text-decoration: underline;
 }
 
 .latestFunding-body{
@@ -276,6 +291,67 @@ header {
 .card-description span{
   color: #aaa;
 }
+
+/** Footer ***/
+footer {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-section-top {
+  background-color: #191919;
+  height: 100px;
+}
+
+.footer-socialmedia-icons,
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer-link{
+  font-family: Maquette,Helvetica Neue,Arial,sans-serif;
+}
+
+.footer-socialmedia-icons {
+  padding-top: 20px;
+}
+
+.bx {
+  margin: 5px;
+  background: #000;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.bx:hover {
+  background: gray;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px;
+  color: white;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.footer-section-buttom {
+  background-color: #000;
+  margin-top: -16px;
+}
+
+.footer-section-buttom p{
+  color: white;
+  text-align: center;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-size: 12px;
+}
+/*************/
 /** Latest funding ENDS **/
 
 /* MAIN ENDS */
@@ -287,11 +363,13 @@ header {
 @media screen and (min-width : 768px) {
   .top-nav-menu {
     position: fixed;
+    top: 120px;
     background-color: white;
     width: 100%;
-    font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
-    padding: 0px;
-    z-index: 1;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
   }
 
   .top-nav-button {
@@ -303,29 +381,33 @@ header {
 
   .top-nav-banner {
     position: fixed;
-    top: 231px;
+    top: 160px;
     text-align: start;
     background-color: yellow;
     height: 60px;
   }
 
+  main {
+    margin-top: 220px;
+  }
+
   #highlights-3 {
       margin-top: 0px;
-      width: calc(50% - 8px);
+      width: calc(40% - 8px);
       height: 190px;
       float: right;
       font-size: 20px;
   }
 
   #highlights-2 {
-      width: calc(50% - 8px);
+      width: calc(40% - 8px);
       height: 190px;
       float: right;
       font-size: 20px;
   }
   
   #highlights-1 {
-      width: calc(50% - 8px);
+      width: calc(60% - 8px);
       height: 387px;
       float: left;
   }
@@ -354,8 +436,49 @@ header {
   .latestFunding-card{
     width: 32%;
   }
-
+  
+  .top-nav-menu-fast-links {
+    display: flex;
+    background-color: #000;
+  }
   /** Latest funding ENDS **/
+
+  .top-nav-menu {
+    border: none;
+  }
+  
+  .top-nav-menu-links {
+    height: 35px;
+    width: 660px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    background-color: white;
+  }
+
+  .top-nav-banner {
+    margin-top: 6px;
+  }
+
+  .nav-menu-link {
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  .top-nav-menu-fast-links {
+   position: fixed;
+   width: 661px;
+   left: 106px;
+  }
+
+  .top-nav-menu-fast-links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+  }
+
+  .top-nav-menu-fast-links a:hover {
+    text-decoration: underline;
+  }
 }
 
 /** Tablet STARTS ENDS **/
