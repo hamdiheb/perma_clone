@@ -233,7 +233,6 @@ header {
 
 .latestFunding-header-title a {
   text-decoration: underline;
-  font-size: 20px;
   color: #f42;
   font-size: 28px;
 }
@@ -521,7 +520,7 @@ footer {
     right: 120px;
   }
 
-  .top-nav-menu-fast-links{
+  .top-nav-menu-fast-links {
     margin: 0;
     width: calc(100% - 5px);
     display: flex;
