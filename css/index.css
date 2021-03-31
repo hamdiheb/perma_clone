@@ -573,7 +573,7 @@ footer {
 }
 
 /* Desktop STARTS */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) {
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
@@ -602,27 +602,22 @@ footer {
     display: none;
   }
 
-  .top-nav-banner {
-    margin-top: 22px;
-    height: 35px;
-    display: flex;
-  }
-
   .nav-banner-comment {
     margin: 8px;
   }
 
   #highlights-3 {
     margin-top: 0;
-    width: calc(40% - 8px);
+    width: calc(38% - 8px);
     height: 222px;
     float: right;
     font-size: 20px;
   }
 
   #highlights-2 {
-    width: calc(40% - 8px);
-    height: 220px;
+    margin-top: 0;
+    width: calc(38% - 8px);
+    height: 222px;
     float: right;
     font-size: 20px;
   }
