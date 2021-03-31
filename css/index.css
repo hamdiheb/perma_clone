@@ -157,10 +157,6 @@ main {
   margin-right: 7px;
 }
 
-.top-nav-banner a:hover {
-  text-decoration: underline;
-}
-
 .nav-banner-comment {
   margin-left: 10px;
 }
@@ -226,17 +222,12 @@ header {
   font-size: 14px;
 }
 
-.highlight-info a:hover {
-  text-decoration: underline;
-  color: #fff;
-}
-
 /* HIGHLIGHTS ENDS */
 .latestFunding-header-title {
   margin-top: -20px;
 }
 
-.latestFunding-header-title a{
+.latestFunding-header-title a {
   text-decoration: underline;
   font-size: 20px;
   color: black;
@@ -264,6 +255,7 @@ header {
 .links-lineafter {
   margin-left: 5px;
 }
+
 .latestFunding-header-links a:hover {
   text-decoration: underline;
 }
@@ -287,18 +279,31 @@ header {
   font-size: 18px;
 }
 
-.card-title a{
+.card-title a {
   text-decoration: none;
   color: white;
-}
-
-.card-title a:hover{
-  text-decoration: underline;
 }
 
 .labels-container a {
   text-decoration: none;
   color:black;
+}
+
+.card-description a:hover {
+  text-decoration: underline;
+}
+
+.top-nav-banner a:hover {
+  text-decoration: underline;
+}
+
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+.highlight-info a:hover {
+  text-decoration: underline;
+  color: #fff;
 }
 
 .labels-container a:hover {
@@ -308,10 +313,6 @@ header {
 .card-description a {
   text-decoration: none;
   color: #aaa;
-}
-
-.card-description a:hover {
-  text-decoration: underline;
 }
 
 .card-name h4 {
@@ -529,10 +530,6 @@ footer {
     color: #aaa;
   }
 
-  .top-nav-menu-fast-links a:hover {
-    text-decoration: underline;
-  }
-
   .top-nav-menu-logo {
     display: flex;
     position: relative;
@@ -567,16 +564,16 @@ footer {
     font-size: 15px;
   }
 
- .highlights p{
+  .highlights p {
     padding-right: 9%;
   }
-
+  
   #highlights-1 .highlight-title {
     font-size: 32px;
   }
 
   /** Latest funding STARTS **/
-    .latestFunding-header-title {
+  .latestFunding-header-title {
     width: 800px;
   }
 
@@ -584,6 +581,10 @@ footer {
     text-decoration: none;
     font-size: 20px;
     color: black;
+  }
+  
+  .top-nav-menu-fast-links a:hover {
+    text-decoration: underline;
   }
 
   .latestFunding-header-title a:hover {
@@ -671,6 +672,13 @@ footer {
 
   .nav-gridian {
     padding-top: 8px;
+    display: flex;
+    width: 100%;
+  }
+  
+  .nav-gridian a {
+    position: relative;
+    bottom: 5px;
   }
 
   .nav-banner-comment {
@@ -692,7 +700,7 @@ footer {
     width: 61.8%;
     height: 393px;
     float: left;
-    background: linear-gradient(0deg, rgba(0,0,0,0.9) 35%, rgba(253, 0, 0, 0.7) 100%) , url(../img/blue_shape.webp);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 35%, rgba(253, 0, 0, 0.7) 100%), url(../img/blue_shape.webp);
   }
 
   #highlights-1 .highlight-title {
@@ -700,7 +708,7 @@ footer {
   }
 
   .highlight-date {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     padding-bottom: 250px;
     font-size: 14px;
@@ -737,16 +745,6 @@ footer {
 
   #wolt-card {
     display: block;
-  }
-
-  .nav-gridian {
-    display: flex;
-    width: 100%;
-  }
-  
-  .nav-gridian a {
-    position: relative;
-    bottom: 5px;
   }
 }
 
