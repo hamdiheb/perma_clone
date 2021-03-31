@@ -536,7 +536,7 @@ footer {
   .top-nav-menu-logo {
     display: flex;
     position: relative;
-    bottom: 60px;
+    bottom: 18px;
     width: 100px;
     height: 61px;
   }
@@ -610,7 +610,7 @@ footer {
   .top-nav-menu-fast-links {
     display: flex;
     background-color: #000;
-    width: 670px;
+    width: 690px;
     position: relative;
     left: 100px;
   }
@@ -618,7 +618,9 @@ footer {
   /** Latest funding ENDS **/
   .top-nav-menu-links {
     height: 40px;
-    width: 670px;
+    width: 685px;
+    position: relative;
+    right: 35px;
     border: 1px solid #000;
     background-color: white;
   }
@@ -627,7 +629,7 @@ footer {
     display: flex;
     width: 100%;
     margin-top: 5px;
-    margin-left: 4px;
+    position: relative;
   }
 
   .nav-gridian a:hover {
@@ -651,6 +653,8 @@ footer {
     justify-content: flex-end;
     width: 100%;
     margin-top: 28px;
+    position: relative;
+    left: 0.2px;
     border: transparent;
   }
 
@@ -666,7 +670,7 @@ footer {
   }
 
   .nav-gridian {
-    padding-top: 3px;
+    padding-top: 8px;
   }
 
   .nav-banner-comment {
@@ -738,6 +742,11 @@ footer {
   .nav-gridian {
     display: flex;
     width: 100%;
+  }
+  
+  .nav-gridian a {
+    position: relative;
+    bottom: 5px;
   }
 }
 
