@@ -228,8 +228,9 @@ header {
 
 /** Latest funding STARTS **/
 
-.links-lineafter{
+.links-lineafter {
   display: none;
+  margin-left: 5px;
 }
 
 .latestFunding-header-title {
@@ -260,10 +261,6 @@ header {
   display: flex;
   margin-top: -20px;
   flex-direction: column;
-}
-
-.links-lineafter {
-  margin-left: 5px;
 }
 
 .latestFunding-body {
@@ -298,6 +295,10 @@ header {
 .card-description a {
   text-decoration: none;
   color: #000;
+}
+
+.card-description span {
+  color: #aaa;
 }
 
 .card-description a span{
@@ -398,10 +399,6 @@ header {
   display: none;
 }
 
-.card-description span {
-  color: #aaa;
-}
-
 .nav-gridian {
   display: none;
 }
@@ -425,7 +422,7 @@ footer {
   text-decoration: underline;
 }
 
-.footer-icon{
+.footer-icon {
   color: white;
 }
 
@@ -620,7 +617,7 @@ footer {
   .latestFunding-header-title a:hover {
     text-decoration: underline;
   }
-    
+
   .latestFunding-header-links {
     display: flex;
     flex-direction: row;
