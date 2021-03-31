@@ -692,6 +692,13 @@ footer {
     bottom: 5px;
   }
 
+  .nav-menu-link {
+    position: absolute;
+    width: 20px;
+    top: 0;
+    right: 1px;
+  }
+
   .nav-banner-comment {
     margin: 8px;
   }
