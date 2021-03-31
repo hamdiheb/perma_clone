@@ -256,10 +256,6 @@ header {
   margin-left: 5px;
 }
 
-.latestFunding-header-links a:hover {
-  text-decoration: underline;
-}
-
 .latestFunding-body {
   font-family: sans-serif;
   display: flex;
@@ -284,9 +280,18 @@ header {
   color: white;
 }
 
+.card-description a {
+  text-decoration: none;
+  color: #aaa;
+}
+
 .labels-container a {
   text-decoration: none;
   color:black;
+}
+
+.latestFunding-header-links a:hover {
+  text-decoration: underline;
 }
 
 .card-description a:hover {
@@ -308,11 +313,6 @@ header {
 
 .labels-container a:hover {
   text-decoration: underline;
-}
-
-.card-description a {
-  text-decoration: none;
-  color: #aaa;
 }
 
 .card-name h4 {
@@ -573,6 +573,7 @@ footer {
   }
 
   /** Latest funding STARTS **/
+  
   .latestFunding-header-title {
     width: 800px;
   }
@@ -617,6 +618,7 @@ footer {
   }
 
   /** Latest funding ENDS **/
+  
   .top-nav-menu-links {
     height: 40px;
     width: 685px;
@@ -700,7 +702,7 @@ footer {
     width: 61.8%;
     height: 393px;
     float: left;
-    background: linear-gradient(0deg, rgba(0,0,0,0.9) 35%, rgba(253, 0, 0, 0.7) 100%), url(../img/blue_shape.webp);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 35%, rgba(253,0,0,0.7) 100%), url(../img/blue_shape.webp);
   }
 
   #highlights-1 .highlight-title {
