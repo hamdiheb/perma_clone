@@ -329,6 +329,9 @@ header {
   color: #aaa;
 }
 
+.nav-gridian {
+  display: none;
+}
 /** Latest funding ENDS **/
 
 /** Footer STARTS ***/
@@ -456,6 +459,12 @@ footer {
     margin-left: 5px;
   }
 
+  .nav-gridian a {
+    margin: 5px;
+    text-decoration: none;
+    color: #aaa;
+  }
+
   .top-nav-menu-fast-links a:hover {
     text-decoration: underline;
   }
@@ -531,12 +540,6 @@ footer {
   .nav-gridian {
     margin-top: 10px;
     margin-right: 110px;
-  }
-
-  .nav-gridian a {
-    margin: 5px;
-    text-decoration: none;
-    color: #aaa;
   }
 
   .nav-gridian a:hover {
