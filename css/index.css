@@ -287,7 +287,7 @@ header {
 
 .labels-container a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .latestFunding-header-links a:hover {
@@ -567,13 +567,13 @@ footer {
   .highlights p {
     padding-right: 9%;
   }
-  
+
   #highlights-1 .highlight-title {
     font-size: 32px;
   }
 
   /** Latest funding STARTS **/
-  
+ 
   .latestFunding-header-title {
     width: 800px;
   }
@@ -583,7 +583,7 @@ footer {
     font-size: 20px;
     color: black;
   }
-  
+
   .top-nav-menu-fast-links a:hover {
     text-decoration: underline;
   }
@@ -618,7 +618,7 @@ footer {
   }
 
   /** Latest funding ENDS **/
-  
+
   .top-nav-menu-links {
     height: 40px;
     width: 685px;
@@ -677,7 +677,7 @@ footer {
     display: flex;
     width: 100%;
   }
-  
+
   .nav-gridian a {
     position: relative;
     bottom: 5px;
@@ -702,7 +702,7 @@ footer {
     width: 61.8%;
     height: 393px;
     float: left;
-    background: linear-gradient(0deg, rgba(0,0,0,0.9) 35%, rgba(253,0,0,0.7) 100%), url(../img/blue_shape.webp);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 35%, rgba(253, 0, 0, 0.7) 100%), url(../img/blue_shape.webp);
   }
 
   #highlights-1 .highlight-title {
