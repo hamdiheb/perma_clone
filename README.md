@@ -6,9 +6,9 @@
 
 Mobile Version :
 
-![screenshot](./img/screenshot/Phone 1.png)
-![screenshot](./img/screenshot/Phone 2.png)
-![screenshot](./img/screenshot/Phone 3.png)
+![screenshot](./img/screenshot/Phone1.png)
+![screenshot](./img/screenshot/Phone2.png)
+![screenshot](./img/screenshot/Phone3.png)
 
 Tablet Version :
 
