@@ -109,9 +109,20 @@ main {
   margin-right: 20px;
 }
 
+.top-nav-banner {
+  position: fixed;
+  top: 160px;
+  text-align: start;
+  background-color: yellow;
+  height: 30px;
+  width: 100%;
+  padding-top: 30px;
+}
+
 .top-nav-banner a {
   text-decoration: none;
   color: black;
+  font-size: 11px;
 }
 
 .highlight-info a {
@@ -178,6 +189,7 @@ header {
   margin: -4px 4px 8px 4px;
   align-items: flex-end;
   align-content: flex-start;
+  padding: 5px;
 }
 
 .highlights p {
@@ -199,8 +211,9 @@ header {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/screen_image.webp);
 }
 
-.highlight-title {
-  font-size: 20px;
+.highlight-title a {
+  text-decoration: none;
+  color: wheat;
 }
 
 .highlight-info {
@@ -432,16 +445,15 @@ footer {
 
   .top-nav-banner {
     position: fixed;
-    top: 160px;
     text-align: start;
     background-color: yellow;
-    height: 40px;
-    margin-top: 20px;
+    height: 30px;
     width: 100%;
   }
 
-  .nav-banner-comment {
-    margin: 8px;
+  .top-nav-banner a {
+    font-size: 15px;
+    padding-left: 10px;
   }
 
   #nav-menu-logo {
@@ -475,31 +487,35 @@ footer {
     position: relative;
     bottom: 60px;
     width: 100px;
-    height: 60px;
+    height: 61px;
   }
 
   main {
     margin-top: 220px;
   }
+  
+  .highlight-title {
+    font-size: 15px;
+  }
 
   #highlights-3 {
-    margin-top: 0;
-    width: calc(40% - 8px);
-    height: 190px;
+    margin-bottom: 6px;
+    width: 35.3%;
     float: right;
     font-size: 20px;
   }
 
   #highlights-2 {
-    width: calc(40% - 8px);
-    height: 190px;
+    margin-top: 5px;
+    height: 50px;
+    width: 35.3%;
     float: right;
     font-size: 20px;
   }
 
   #highlights-1 {
-    width: calc(60% - 8px);
-    height: 387px;
+    width: calc(60%);
+    height: 392px;
     float: left;
   }
 
