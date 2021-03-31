@@ -223,8 +223,15 @@ header {
 }
 
 /* HIGHLIGHTS ENDS */
+
+/** Latest funding STARTS **/
+
 .latestFunding-header-title {
-  margin-top: -20px;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  font-size: 28px;
+
 }
 
 .latestFunding-header-title a {
@@ -232,8 +239,6 @@ header {
   font-size: 20px;
   color: black;
 }
-
-/** Latest funding STARTS **/
 
 .container-latestFunding {
   padding: 20px;
@@ -476,12 +481,11 @@ footer {
 
 /** Tablet STARTS **/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .top-nav-menu {
     position: fixed;
     top: 120px;
     background-color: white;
-    width: 100%;
     height: 45px;
     border: 1px solid black;
     border-left: none;
@@ -499,13 +503,13 @@ footer {
     position: fixed;
     text-align: start;
     background-color: yellow;
-    height: 30px;
-    width: 100%;
+    max-height: 30px;
+    margin: 0;
   }
 
   .top-nav-banner a {
     font-size: 15px;
-    padding-left: 10px;
+    padding-left: 5px;
   }
 
   #nav-menu-logo {
@@ -513,9 +517,19 @@ footer {
   }
 
   .nav-menu-link {
+    position: absolute;
     width: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
+    top: 0;
+    right: 120px;
+  }
+
+  .top-nav-menu-fast-links{
+    margin: 0;
+    width: calc(100% - 5px);
+    display: flex;
+    background-color: #000;
+    position: relative;
+    left: 100px;
   }
 
   .top-nav-menu-fast-links a {
@@ -532,10 +546,10 @@ footer {
 
   .top-nav-menu-logo {
     display: flex;
-    position: relative;
-    bottom: 18px;
+    position: absolute;
+    bottom: -10px;
     width: 100px;
-    height: 61px;
+    height: 55px;
   }
 
   main {
@@ -543,17 +557,17 @@ footer {
   }
 
   #highlights-3 {
-    width: 37%;
+    width: 35%;
     float: right;
   }
 
   #highlights-2 {
-    width: 37%;
+    width: 35%;
     float: right;
   }
 
   #highlights-1 {
-    width: 58.3%;
+    width: calc(65% - 44px);
     height: 394px;
     float: left;
   }
@@ -609,28 +623,22 @@ footer {
     width: 32%;
   }
 
-  .top-nav-menu-fast-links {
-    display: flex;
-    background-color: #000;
-    width: 690px;
-    position: relative;
-    left: 100px;
-  }
-
   /** Latest funding ENDS **/
 
   .top-nav-menu-links {
-    height: 40px;
-    width: 685px;
+    display: block;
+    width: 100%;
+    max-height: 36px;
     position: relative;
-    right: 35px;
+    left: 126px;
+    padding-right: 25px;
     border: 1px solid #000;
     background-color: white;
+    z-index: -1;
   }
 
   .nav-gridian {
     display: flex;
-    width: 100%;
     margin-top: 5px;
     position: relative;
   }
@@ -641,7 +649,7 @@ footer {
 }
 
 /* Desktop STARTS */
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 980px) {
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
@@ -676,6 +684,7 @@ footer {
     padding-top: 8px;
     display: flex;
     width: 100%;
+    margin-left: 28px;
   }
 
   .nav-gridian a {
@@ -689,17 +698,17 @@ footer {
 
   #highlights-3 {
     margin-bottom: 6px;
-    width: 35.3%;
+    width: 30%;
     float: right;
   }
 
   #highlights-2 {
-    width: 35.3%;
+    width: 30%;
     float: right;
   }
 
   #highlights-1 {
-    width: 61.8%;
+    width: calc(70% - 44px);
     height: 393px;
     float: left;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 35%, rgba(253, 0, 0, 0.7) 100%), url(../img/blue_shape.webp);
@@ -733,7 +742,7 @@ footer {
   .latestFunding-header-links {
     display: flex;
     margin-top: -75px;
-    width: 1200px;
+    width: calc(100% - 10px);
     justify-content: flex-end;
   }
 
