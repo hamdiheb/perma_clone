@@ -540,8 +540,9 @@ footer {
 
   .nav-gridian {
     display: flex;
-    margin-top: 10px;
-    margin-right: 110px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 4px;
   }
 
   .nav-gridian a:hover {
@@ -624,7 +625,6 @@ footer {
 
   .nav-gridian {
     display: flex;
-    margin-right: 500px;
     width: 100%;
   }
 }
