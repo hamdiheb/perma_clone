@@ -13,7 +13,7 @@ Mobile Version :
 Tablet Version :
 
 ![screenshot](./img/screenshot/tablet.png)
-![screenshot](./img/screenshot/Tablet 2.png)
+![screenshot](./img/screenshot/tablet2.png)
 
 Desktop Version :
 
