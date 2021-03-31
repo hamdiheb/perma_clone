@@ -130,6 +130,10 @@ main {
   text-decoration: none;
 }
 
+.highlight-date {
+  display: none;
+}
+
 .footer-links {
   display: flex;
   justify-content: center;
@@ -228,6 +232,15 @@ header {
 }
 
 /* HIGHLIGHTS ENDS */
+.latestFunding-header-title {
+  margin-top: -20px;
+}
+
+.latestFunding-header-title a{
+  text-decoration: underline;
+  font-size: 20px;
+  color: black;
+}
 
 /** Latest funding STARTS **/
 
@@ -245,9 +258,12 @@ header {
 
 .latestFunding-header-links {
   display: flex;
-  flex-direction: column;
+  margin-top: -20px;
 }
 
+.links-lineafter {
+  margin-left: 5px;
+}
 .latestFunding-header-links a:hover {
   text-decoration: underline;
 }
@@ -269,6 +285,33 @@ header {
   min-height: 43.33px;
   padding-left: 84px;
   font-size: 18px;
+}
+
+.card-title a{
+  text-decoration: none;
+  color: white;
+}
+
+.card-title a:hover{
+  text-decoration: underline;
+}
+
+.labels-container a {
+  text-decoration: none;
+  color:black;
+}
+
+.labels-container a:hover {
+  text-decoration: underline;
+}
+
+.card-description a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.card-description a:hover {
+  text-decoration: underline;
 }
 
 .card-name h4 {
@@ -363,6 +406,14 @@ footer {
 
 .footer-links a:hover {
   text-decoration: underline;
+}
+
+.footer-icon:visited {
+  color: white;
+}
+
+.footer-logo {
+  width: 40px;
 }
 
 /** Footer ENDS ***/
@@ -463,7 +514,7 @@ footer {
   .nav-menu-link {
     width: 20px;
     margin-right: 20px;
-    margin-top: 8px;
+    margin-top: 10px;
   }
 
   .top-nav-menu-fast-links a {
@@ -495,23 +546,18 @@ footer {
   }
 
   #highlights-3 {
-    margin-bottom: 6px;
-    width: 35.3%;
+    width: 37%;
     float: right;
-    font-size: 20px;
   }
 
   #highlights-2 {
-    margin-top: 5px;
-    height: 50px;
-    width: 35.3%;
+    width: 37%;
     float: right;
-    font-size: 20px;
   }
 
   #highlights-1 {
-    width: calc(60%);
-    height: 392px;
+    width: 58.3%;
+    height: 394px;
     float: left;
   }
 
@@ -530,9 +576,26 @@ footer {
   }
 
   /** Latest funding STARTS **/
+    .latestFunding-header-title {
+    width: 800px;
+  }
+
+  .latestFunding-header-title a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+
+  .latestFunding-header-title a:hover {
+    text-decoration: underline;
+  }
 
   .latestFunding-header-links {
     flex-direction: row;
+    display: flex;
+    margin-top: -50px;
+    width: 700px;
+    justify-content: flex-end;
   }
 
   .latestFunding-body {
@@ -573,7 +636,7 @@ footer {
 }
 
 /* Desktop STARTS */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 770px) {
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
@@ -602,34 +665,66 @@ footer {
     display: none;
   }
 
+  .nav-gridian {
+    padding-top: 3px;
+  }
+
   .nav-banner-comment {
     margin: 8px;
   }
 
   #highlights-3 {
-    margin-top: 0;
-    width: calc(38% - 8px);
-    height: 222px;
+    margin-bottom: 6px;
+    width: 35.3%;
     float: right;
-    font-size: 20px;
   }
 
   #highlights-2 {
-    margin-top: 0;
-    width: calc(38% - 8px);
-    height: 222px;
+    width: 35.3%;
     float: right;
-    font-size: 20px;
   }
 
   #highlights-1 {
-    width: calc(60% - 8px);
-    height: 450px;
+    width: 61.8%;
+    height: 393px;
     float: left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 35%, rgba(253, 0, 0, 0.7) 100%) , url(../img/blue_shape.webp);
   }
 
   #highlights-1 .highlight-title {
     font-size: 32px;
+  }
+
+  .highlight-date {
+    display:flex;
+    justify-content: flex-end;
+    padding-bottom: 250px;
+    font-size: 14px;
+  }
+
+  .latestFunding-header-title {
+    width: 800px;
+  }
+
+  .latestFunding-header-title a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+
+  .latestFunding-header-title a:hover {
+    text-decoration: underline;
+  }
+
+  .latestFunding-header-links {
+    display: flex;
+    margin-top: -75px;
+    width: 1200px;
+    justify-content: flex-end;
+  }
+
+  .links-lineafter {
+    margin-left: 5px;
   }
 
   .latestFunding-card {
