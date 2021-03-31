@@ -518,6 +518,15 @@ footer {
     height: 392px;
     float: left;
   }
+  
+  .highlight-title {
+    display: flex;
+    margin: 0 5px;
+  }
+
+ .highlights p{
+    padding-right: 9%;
+  }
 
   #highlights-1 .highlight-title {
     font-size: 32px;
