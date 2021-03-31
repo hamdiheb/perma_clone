@@ -4,7 +4,7 @@
 
 > Perma clone that provide most technology news that you need to know in the easiest way .
 
-> The next project is to check out more about Responsive design and how to apply mobile-first techniques, this website was created using flexbox and good practices. We've included flexbox and good practices to build, with responsive design, a simple website clone of The Next Web in Perma.cc.
+The next project is to check out more about Responsive design and how to apply mobile-first techniques, this website was created using flexbox and good practices. We've included flexbox and good practices to build, with responsive design, a simple website clone of The Next Web in Perma.cc.
 
 
 Mobile Version :
