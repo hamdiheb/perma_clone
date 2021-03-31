@@ -539,6 +539,7 @@ footer {
   }
 
   .nav-gridian {
+    display: flex;
     margin-top: 10px;
     margin-right: 110px;
   }
@@ -619,6 +620,12 @@ footer {
 
   #wolt-card {
     display: block;
+  }
+
+  .nav-gridian {
+    display: flex;
+    margin-right: 500px;
+    width: 100%;
   }
 }
 
