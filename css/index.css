@@ -410,7 +410,11 @@ header {
 /** Topics STARTS **/
 
 .topics-section {
-  padding: 16px;
+  padding: 8px;
+}
+
+.topic {
+  width: 335px;
 }
 
 .topics-section .latestFunding-header-title {
@@ -470,32 +474,62 @@ header {
   height: 96px;
 }
 
-.latest-header {
-  margin: 0;
-  padding-top: 16px;
-  padding-left: 16px;
+.latest-header a{
+  text-decoration: none;
   color: #f42;
-  font-size: 13px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.latest-header a:hover {
+  text-decoration: underline;
 }
 
 .latest-title {
-  padding-left: 16px;
   text-decoration: none;
   color: #f42;
-  font-weight: 700;
-  font-family: sans-serif;
-  font-size: 14px;
+  width: 335px;
+  margin-top: -10px;
 }
 
-.latest-image {
-  background-image: url(../img/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.latest-title a {
+  text-decoration: none;
+  color: #f42;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.latest-title a:hover {
+  text-decoration: underline;
+}
+
+.latest-img {
+  width: 100px;
   height: 96px;
-  width: 96px;
+  float: right;
+  margin-top: -22px;
 }
 
+.latest-ul {
+  list-style: none;
+}
+
+.latest-ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.latest-li {
+  width: 330px;
+  border-bottom: 1px solid #aaa;
+  margin-top: 5px;
+  margin-left: -23px;
+  padding-bottom: 5px;
+  font-size: 14;
+  color: #333;
+}
 /** Topics ENDS **/
 
 /** Footer STARTS ***/
