@@ -3,10 +3,17 @@
 body {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 main {
   margin-top: 250px;
+}
+
+.section {
+  display: block;
+  margin: 16px auto;
+  max-width: 1200px;
 }
 
 /* General Attributes ENDS */
@@ -207,11 +214,12 @@ header {
 .highlight-title {
   display: block;
   width: calc(100% - 8px);
+  margin: 0;
 }
 
 .highlight-title a {
   text-decoration: none;
-  color: wheat;
+  color: white;
   width: fit-content;
   margin: 0;
   font-size: 18px;
@@ -219,11 +227,12 @@ header {
 
 .highlight-info {
   text-decoration: none;
+  display: block;
   color: #fff9;
   font-size: 14px;
   margin: 0;
   margin-bottom: 19px;
-  width: calc(100% - 10%);
+  width: calc(100% - 2%);
 }
 
 /* HIGHLIGHTS ENDS */
@@ -410,11 +419,22 @@ header {
 /** Topics STARTS **/
 
 .topics-section {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
   padding: 8px;
 }
+.topic{
+  width: 100%;
+}
 
-.topic {
-  width: 335px;
+.section-header-title{
+  display: block;
+  font-size: 22px;
+  color: #f42;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 800;
 }
 
 .topics-section .latestFunding-header-title {
@@ -468,35 +488,48 @@ header {
 }
 
 .latest-container {
-  background-color: #f422;
+  background-color: #f421;
   margin: 0;
   display: flex;
   height: 96px;
 }
 
+.latest-header{
+  margin: 0;
+  padding: 10px;
+}
+
 .latest-header a{
   text-decoration: none;
   color: #f42;
-  margin-left: 5px;
+  padding-left: 10px;
   font-size: 12px;
+  font-family: sans-serif;
 }
 
 .latest-header a:hover {
   text-decoration: underline;
 }
 
+.latest-container div {
+  width: 100%;
+}
+
 .latest-title {
   text-decoration: none;
   color: #f42;
-  width: 335px;
-  margin-top: -10px;
+  margin: 0;
+  padding-left: 20px;
 }
 
 .latest-title a {
   text-decoration: none;
   color: #f42;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
+  display: block;
+  font-family: sans-serif;
+  width: calc(70%);
 }
 
 .latest-title a:hover {
@@ -504,10 +537,11 @@ header {
 }
 
 .latest-img {
-  width: 100px;
+  width: 96px;
   height: 96px;
   float: right;
-  margin-top: -22px;
+  right: 8px;
+  justify-items: flex-end;
 }
 
 .latest-ul {
@@ -518,18 +552,27 @@ header {
   content: "\2022";
   color: red;
   font-weight: bold;
-  margin-right: 1em;
+  margin-right: 6px;
 }
 
 .latest-li {
-  width: 330px;
-  border-bottom: 1px solid #aaa;
-  margin-top: 5px;
-  margin-left: -23px;
+  display: flex;
+  border-bottom: 1px solid #aaa5;
+  margin: 5px 0;
+  margin-left: -40px;
   padding-bottom: 5px;
   font-size: 14;
   color: #333;
 }
+
+.latest-li a {
+  display: inline-block;
+  padding-left: 0px;
+  color: #777;
+  text-decoration: none;
+  font-size: 13px;
+}
+
 /** Topics ENDS **/
 
 /** Footer STARTS ***/
@@ -621,6 +664,7 @@ footer {
 /** Tablet STARTS **/
 
 @media screen and (min-width: 720px) {
+
   .top-nav-menu {
     position: fixed;
     top: 120px;
@@ -642,6 +686,7 @@ footer {
     position: fixed;
     text-align: start;
     background-color: yellow;
+    width: 100%;
     max-height: 30px;
     margin: 0;
   }
@@ -717,6 +762,10 @@ footer {
     font-size: 15px;
   }
 
+  .highlight-info{
+    width: calc(100% - 10%);
+  }
+
   .highlights p {
     padding-right: 9%;
   }
@@ -769,6 +818,16 @@ footer {
 
   /** Latest funding ENDS **/
 
+  .topics-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .topic {
+    width: 45%;
+    margin: 16px;
+  }
+
   .top-nav-menu-links {
     display: block;
     width: 100%;
@@ -793,7 +852,7 @@ footer {
 }
 
 /* Desktop STARTS */
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1024px) {
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
@@ -902,6 +961,10 @@ footer {
 
   #wolt-card {
     display: block;
+  }
+
+  .topic{
+    width: 30%;
   }
 }
 
