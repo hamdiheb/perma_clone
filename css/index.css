@@ -225,6 +225,7 @@ header {
 .highlight-logo {
   display: none;
 }
+
 /* HIGHLIGHTS ENDS */
 
 /** Latest funding STARTS **/
@@ -737,7 +738,7 @@ footer {
     padding-bottom: 250px;
     font-size: 14px;
   }
-  
+
   .highlight-logo {
     display: flex;
     width: 500px;
