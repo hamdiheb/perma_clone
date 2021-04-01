@@ -418,17 +418,18 @@ header {
 
 /** Latest news **/
 .news {
-  width: 390px;
-  padding-left: 30px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-container{
+  padding: 8px 0;
 }
 
 .latest-news-header a{
   text-decoration: none;
   color: #f42;
-}
-
-.news-container {
-  width: 390px;
 }
 
 .latest-news-img {
@@ -440,7 +441,7 @@ header {
 
 .latest-news-title {
   font-size: 14px;
-  width: 270px;
+  width: 90%;
 }
 
 .latest-news-title a {
@@ -455,7 +456,10 @@ header {
 .latest-news-details {
   font-size: 12px;
   color: #aaa;
+}
 
+.latest-news-author::after {
+  content: ' · ';
 }
 
 .latest-news-details a {
@@ -894,13 +898,50 @@ footer {
 
   /** Latest funding ENDS **/
 
+  /* Latest News STARTS */
+
+  .news {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+  .latest-news-header {
+    display: block;
+    width: 95%;
+  }
+
+  .news-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
+  }
+
+  .latest-news-img {
+    width: 100%;
+    min-height: 132px;
+    overflow: hidden;
+  }
+
+  .latest-news-title {
+    margin: 8px 0;
+  }
+
+  .latest-news-details {
+    margin: 0;
+  }
+  
+  /* Latest News ENDS */
+
   .topics-section {
     display: flex;
     flex-direction: row;
   }
 
   .topic {
-    width: 45%;
+    width: calc(50% - 50px);
     margin: 16px;
     padding-left: 5px;
   }
@@ -929,7 +970,7 @@ footer {
 }
 
 /* Desktop STARTS */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1124px) {
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
@@ -1038,6 +1079,15 @@ footer {
 
   #wolt-card {
     display: block;
+  }
+
+  .news-container {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
   }
 
   .topic{
