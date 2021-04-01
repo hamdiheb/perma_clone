@@ -416,6 +416,58 @@ header {
 
 /** Latest funding ENDS **/
 
+/** Latest news **/
+.news {
+  width: 390px;
+  padding-left: 30px;
+}
+
+.latest-news-header a{
+  text-decoration: none;
+  color: #f42;
+}
+
+.news-container {
+  width: 390px;
+}
+
+.latest-news-img {
+  width: 90px;
+  height: 80px;
+  float: left;
+  padding-right: 5px;
+}
+
+.latest-news-title {
+  font-size: 14px;
+  width: 270px;
+}
+
+.latest-news-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.latest-news-title a:hover{
+  text-decoration: underline;
+}
+
+.latest-news-details {
+  font-size: 12px;
+  color: #aaa;
+
+}
+
+.latest-news-details a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.latest-news-details a:hover {
+  color: black;
+}
+/** Latest news end **/
+
 /** Topics STARTS **/
 
 .topics-section {
@@ -437,6 +489,10 @@ header {
   font-weight: 800;
 }
 
+.section-header-title:hover {
+  color: #000;
+}
+
 .topics-section .latestFunding-header-title {
   color: #f42;
   text-decoration: none;
@@ -456,6 +512,14 @@ header {
   padding: 16px;
 }
 
+#gear-topic {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/gear-topics-section-background.jpg);
+}
+
+#app-topic {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/apps-topics-section-background.png);
+}
+
 .img-container-src {
   color: #fff;
   margin: 5px 0;
@@ -470,11 +534,19 @@ header {
   font-weight: 600;
 }
 
+.img-container-titleNew:hover {
+  text-decoration: underline;
+}
+
 .details-author {
   color: #aaa;
   font-family: sans-serif;
   text-decoration: none;
   font-size: 12px;
+}
+
+.details-author:hover{
+  color: #fff;
 }
 
 .details-author::after {
@@ -537,7 +609,7 @@ header {
 }
 
 .latest-img {
-  width: 96px;
+  width: 120px;
   height: 96px;
   float: right;
   right: 8px;
@@ -571,6 +643,10 @@ header {
   color: #777;
   text-decoration: none;
   font-size: 13px;
+}
+
+.latest-li a:hover {
+  color: black;
 }
 
 /** Topics ENDS **/
@@ -826,6 +902,7 @@ footer {
   .topic {
     width: 45%;
     margin: 16px;
+    padding-left: 5px;
   }
 
   .top-nav-menu-links {
