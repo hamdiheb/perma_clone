@@ -214,8 +214,6 @@ header {
 .highlight-title a {
   text-decoration: none;
   color: wheat;
-  margin: 0 50px;
-  font-size: 18px;
 }
 
 .highlight-info {
@@ -228,18 +226,13 @@ header {
 
 /** Latest funding STARTS **/
 
-.links-lineafter {
-  display: none;
-  margin-left: 5px;
-}
-
 .latestFunding-header-title {
   display: inline-block;
   font-size: 28px;
 }
 
 .latestFunding-header-title a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #f42;
   font-size: 28px;
 }
@@ -254,13 +247,15 @@ header {
   font-size: 28px;
   color: #f42;
   font-weight: 700;
-  padding-bottom: 18px;
 }
 
 .latestFunding-header-links {
   display: flex;
   margin-top: -20px;
-  flex-direction: column;
+}
+
+.links-lineafter {
+  margin-left: 5px;
 }
 
 .latestFunding-body {
@@ -272,11 +267,6 @@ header {
 .latestFunding-card {
   margin-top: 24px;
   background-color: rgba(255, 68, 34, 0);
-}
-
-.card-labels a {
-  font-size: 13px;
-  padding-left: 8px;
 }
 
 .card-name {
@@ -293,15 +283,6 @@ header {
 }
 
 .card-description a {
-  text-decoration: none;
-  color: #000;
-}
-
-.card-description span {
-  color: #aaa;
-}
-
-.card-description a span {
   text-decoration: none;
   color: #aaa;
 }
@@ -371,6 +352,10 @@ header {
   font-size: 11px;
 }
 
+.card-labels {
+  padding: 16px;
+}
+
 .labels-container {
   display: flex;
   padding: 6px;
@@ -399,6 +384,10 @@ header {
   display: none;
 }
 
+.card-description span {
+  color: #aaa;
+}
+
 .nav-gridian {
   display: none;
 }
@@ -420,10 +409,6 @@ footer {
 
 .footer-links a:hover {
   text-decoration: underline;
-}
-
-.footer-icon {
-  color: white;
 }
 
 .footer-icon:visited {
@@ -606,8 +591,8 @@ footer {
 
   .latestFunding-header-title a {
     text-decoration: none;
-    color: #f42;
-    font-size: 28px;
+    font-size: 20px;
+    color: black;
   }
 
   .top-nav-menu-fast-links a:hover {
@@ -619,16 +604,11 @@ footer {
   }
 
   .latestFunding-header-links {
-    display: flex;
     flex-direction: row;
-    margin-top: -20px;
-    width: calc(100% - 10px);
-    justify-content: flex-start;
-  }
-
-  .links-lineafter {
-    display: block;
-    margin: 0 5px;
+    display: flex;
+    margin-top: -50px;
+    width: 700px;
+    justify-content: flex-end;
   }
 
   .latestFunding-body {
@@ -753,20 +733,25 @@ footer {
     width: 800px;
   }
 
+  .latestFunding-header-title a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+
   .latestFunding-header-title a:hover {
     text-decoration: underline;
   }
 
   .latestFunding-header-links {
     display: flex;
-    flex-direction: row;
-    margin-top: -50px;
+    margin-top: -75px;
     width: calc(100% - 10px);
     justify-content: flex-end;
   }
 
   .links-lineafter {
-    margin: 0 5px;
+    margin-left: 5px;
   }
 
   .latestFunding-card {
