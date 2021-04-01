@@ -111,17 +111,18 @@ main {
 
 .top-nav-banner {
   position: fixed;
-  top: 180px;
+  top: 160px;
   text-align: start;
   background-color: yellow;
-  height: 60px;
+  height: 30px;
   width: 100%;
-  z-index: 1;
+  padding-top: 30px;
 }
 
 .top-nav-banner a {
   text-decoration: none;
   color: black;
+  font-size: 11px;
 }
 
 .highlight-info a {
@@ -129,8 +130,31 @@ main {
   text-decoration: none;
 }
 
-.top-nav-banner a:hover {
-  text-decoration: underline;
+.highlight-date {
+  display: none;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.latestFunding-header-links a {
+  font-size: 14px;
+  color: #f42;
+  text-decoration: none;
+  margin-top: 11px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #aaa;
+  font-family: sans-serif;
+  margin-bottom: 24px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 .nav-banner-comment {
@@ -165,13 +189,7 @@ header {
   margin: -4px 4px 8px 4px;
   align-items: flex-end;
   align-content: flex-start;
-}
-
-.highlights p {
-  margin: 0;
-  margin-bottom: 9px;
-  width: 90%;
-  padding-right: 32px;
+  padding: 5px;
 }
 
 #highlights-1 {
@@ -187,23 +205,46 @@ header {
 }
 
 .highlight-title {
-  font-size: 20px;
+  display: block;
+  width: calc(100% - 8px);
+}
+
+.highlight-title a {
+  text-decoration: none;
+  color: wheat;
+  width: fit-content;
+  margin: 0;
+  font-size: 18px;
 }
 
 .highlight-info {
   text-decoration: none;
   color: #fff9;
   font-size: 14px;
-}
-
-.highlight-info a:hover {
-  text-decoration: underline;
-  color: #fff;
+  margin: 0;
+  margin-bottom: 19px;
+  width: calc(100% - 10%);
 }
 
 /* HIGHLIGHTS ENDS */
 
 /** Latest funding STARTS **/
+
+.links-lineafter {
+  display: none;
+  margin-left: 5px;
+}
+
+.latestFunding-header-title {
+  display: inline-block;
+  font-size: 28px;
+}
+
+.latestFunding-header-title a {
+  text-decoration: none;
+  color: #f42;
+  font-size: 28px;
+}
 
 .container-latestFunding {
   padding: 20px;
@@ -215,21 +256,13 @@ header {
   font-size: 28px;
   color: #f42;
   font-weight: 700;
+  padding-bottom: 18px;
 }
 
 .latestFunding-header-links {
   display: flex;
+  margin-top: -20px;
   flex-direction: column;
-}
-
-.latestFunding-header-links a {
-  font-size: 14px;
-  color: #f42;
-  text-decoration: none;
-}
-
-.latestFunding-header-links a:hover {
-  text-decoration: underline;
 }
 
 .latestFunding-body {
@@ -240,7 +273,12 @@ header {
 
 .latestFunding-card {
   margin-top: 24px;
-  background-color: rgba(255, 68, 34, 0.03)
+  background-color: rgba(255, 68, 34, 0);
+}
+
+.card-labels a {
+  font-size: 13px;
+  padding-left: 8px;
 }
 
 .card-name {
@@ -249,6 +287,55 @@ header {
   min-height: 43.33px;
   padding-left: 84px;
   font-size: 18px;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: white;
+}
+
+.card-description a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card-description span {
+  color: #aaa;
+}
+
+.card-description a span {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.labels-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.latestFunding-header-links a:hover {
+  text-decoration: underline;
+}
+
+.card-description a:hover {
+  text-decoration: underline;
+}
+
+.top-nav-banner a:hover {
+  text-decoration: underline;
+}
+
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+.highlight-info a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.labels-container a:hover {
+  text-decoration: underline;
 }
 
 .card-name h4 {
@@ -286,10 +373,6 @@ header {
   font-size: 11px;
 }
 
-.card-labels {
-  padding: 16px;
-}
-
 .labels-container {
   display: flex;
   padding: 6px;
@@ -318,66 +401,102 @@ header {
   display: none;
 }
 
-.card-description span {
-  color: #aaa;
-}
-
-.footer-links a {
-  text-decoration: none;
-  font-size: 14px;
-  margin: 5px;
-  color: white;
-}
-
-.footer-section-top {
-  background-color: #191919;
-  height: 100px;
-}
-
-.footer-socialmedia-icons,
-.footer-links {
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-
-.footer-link {
-  font-family: Maquette, Helvetica Neue, Arial, sans-serif;
-}
-
-.footer-socialmedia-icons {
-  padding-top: 20px;
-}
-
-.bx {
-  margin: 5px;
-  background: #000;
-  padding: 5px;
-  border: 1px solid #000;
-  border-radius: 50%;
-}
-
-.bx:hover {
-  background: gray;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
-}
-
-.footer-section-buttom {
-  background-color: #000;
-  margin-top: -16px;
-}
-
-.footer-section-buttom p {
-  color: white;
-  text-align: center;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 12px;
+.nav-gridian {
+  display: none;
 }
 
 /** Latest funding ENDS **/
+
+/** Topics STARTS **/
+
+.topics-section {
+  padding: 16px;
+}
+
+.topics-section .latestFunding-header-title {
+  color: #f42;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.categories-img-container {
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: 300px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 16px;
+}
+
+.img-container-src {
+  color: #fff;
+  margin: 5px 0;
+}
+
+.img-container-titleNew {
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding-right: 50px;
+  font-weight: 600;
+}
+
+.details-author {
+  color: #aaa;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.details-author::after {
+  content: ' · ';
+}
+
+.details-date {
+  color: #aaa;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.latest-container {
+  background-color: #f422;
+  margin: 0;
+  display: flex;
+  height: 96px;
+}
+
+.latest-header {
+  margin: 0;
+  padding-top: 16px;
+  padding-left: 16px;
+  color: #f42;
+  font-size: 13px;
+}
+
+.latest-title {
+  padding-left: 16px;
+  text-decoration: none;
+  color: #f42;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.latest-image {
+  background-image: url(../img/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 96px;
+  width: 96px;
+}
+
+/** Topics ENDS **/
 
 /** Footer STARTS ***/
 
@@ -392,19 +511,36 @@ footer {
   padding: 0;
 }
 
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-icon {
+  color: white;
+}
+
+.footer-icon:visited {
+  color: white;
+}
+
+.footer-logo {
+  width: 40px;
+}
+
+/** Footer ENDS ***/
+
+/** Footer STARTS ***/
+
 .footer-socialmedia-icons,
 .footer-links {
   display: flex;
   justify-content: center;
   color: white;
+  padding-top: 20px;
 }
 
 .footer-link {
   font-family: sans-serif;
-}
-
-.footer-socialmedia-icons {
-  padding-top: 20px;
 }
 
 .bx {
@@ -418,20 +554,6 @@ footer {
 .bx:hover {
   background: #131313;
   border: #333 2px solid;
-}
-
-.footer-links a {
-  text-decoration: none;
-  font-size: 13px;
-  color: #aaa;
-  font-family: sans-serif;
-  margin-bottom: 24px;
-  margin-left: 7px;
-  margin-right: 7px;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
 }
 
 .footer-section-buttom {
@@ -464,12 +586,11 @@ footer {
 
 /** Tablet STARTS **/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .top-nav-menu {
     position: fixed;
     top: 120px;
     background-color: white;
-    width: 100%;
     height: 45px;
     border: 1px solid black;
     border-left: none;
@@ -485,58 +606,35 @@ footer {
 
   .top-nav-banner {
     position: fixed;
-    top: 160px;
     text-align: start;
     background-color: yellow;
-    height: 40px;
+    max-height: 30px;
+    margin: 0;
   }
 
-  .nav-banner-comment {
-    margin: 8px;
-  }
-
-  .top-nav-menu {
-    border: none;
-  }
-
-  .top-nav-menu-logo {
-    display: none;
+  .top-nav-banner a {
+    font-size: 15px;
+    padding-left: 5px;
   }
 
   #nav-menu-logo {
     display: none;
   }
 
-  .top-nav-menu-links {
-    height: 35px;
-    margin-top: 28px;
-    width: 100%;
-    border: transparent;
-    background-color: white;
-  }
-
-  .top-nav-banner {
-    margin-top: 14px;
-  }
-
   .nav-menu-link {
-    width: 15px;
-    margin-right: 10px;
-    margin-top: 8px;
+    position: absolute;
+    width: 20px;
+    top: 0;
+    right: 120px;
   }
 
-  .menu-links-first {
+  .top-nav-menu-fast-links {
+    margin: 0;
+    width: calc(100% - 5px);
     display: flex;
-    margin-top: 6px;
-    margin-left: 115px;
-    width: 100%;
-  }
-
-  .menu-links-first a {
-    margin: 4px;
-    font-size: 12px;
-    text-decoration: none;
-    color: #aaa;
+    background-color: #000;
+    position: relative;
+    left: 100px;
   }
 
   .top-nav-menu-fast-links a {
@@ -545,31 +643,17 @@ footer {
     margin-left: 5px;
   }
 
-  .menu-links-first a:hover {
-    color: black;
-  }
-
-  .top-nav-menu-fast-links {
-    position: fixed;
-    width: 100%;
-    padding-left: 16px;
-    margin-left: 100px;
-  }
-
-  .top-nav-menu-fast-links {
-    position: fixed;
-    width: 661px;
-    left: 106px;
-   }
-
-  .top-nav-menu-fast-links a:hover {
-    text-decoration: underline;
+  .nav-gridian a {
+    margin: 5px;
+    text-decoration: none;
+    color: #aaa;
   }
 
   .top-nav-menu-logo {
     display: flex;
-    position: relative;
-    bottom: 63px;
+    position: absolute;
+    bottom: -10px;
+    width: 100px;
     height: 55px;
   }
 
@@ -578,40 +662,66 @@ footer {
   }
 
   #highlights-3 {
-      margin-top: 0;
-      width: calc(40% - 8px);
-      height: 190px;
-      float: right;
-      font-size: 20px;
+    width: 35%;
+    float: right;
   }
 
   #highlights-2 {
-      width: calc(40% - 8px);
-      height: 190px;
-      float: right;
-      font-size: 20px;
-  }
-  
-  #highlights-1 {
-      width: calc(60% - 8px);
-      height: 387px;
-      float: left;
+    width: 35%;
+    float: right;
   }
 
-  #highlights-1 .highlight-title {
-    font-size: 32px;
+  #highlights-1 {
+    width: calc(65% - 44px);
+    height: 394px;
+    float: left;
+  }
+
+  .highlight-title {
+    display: flex;
+    margin: 0 5px;
+    font-size: 15px;
+  }
+
+  .highlights p {
+    padding-right: 9%;
+  }
+
+  #highlights-1 .highlight-title a {
+    font-size: 28px;
   }
 
   /** Latest funding STARTS **/
 
-  .latestFunding-header-links {
-    flex-direction: row;
+  .latestFunding-header-title {
+    width: 800px;
   }
 
-  .links-lineafter:after {
-    content: ' | ';
-    margin-left: 10px;
-    margin-right: 10px;
+  .latestFunding-header-title a {
+    text-decoration: none;
+    color: #f42;
+    font-size: 28px;
+  }
+
+  .top-nav-menu-fast-links a:hover {
+    text-decoration: underline;
+  }
+
+  .latestFunding-header-title a:hover {
+    text-decoration: underline;
+  }
+
+  .latestFunding-header-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    width: calc(100% - 10px);
+    justify-content: flex-start;
+  }
+
+  .links-lineafter {
+    display: block;
+    margin: 0 5px;
   }
 
   .latestFunding-body {
@@ -622,39 +732,34 @@ footer {
   .latestFunding-card {
     width: 32%;
   }
-  
-  .top-nav-menu-fast-links {
-    display: flex;
-    background-color: #000;
-  }
+
   /** Latest funding ENDS **/
 
-  .top-nav-menu {
-    border: none;
-  }
-  
   .top-nav-menu-links {
-    height: 35px;
-    width: 660px;
-    margin-top: 10px;
+    display: block;
+    width: 100%;
+    max-height: 36px;
+    position: relative;
+    left: 126px;
+    padding-right: 25px;
     border: 1px solid #000;
     background-color: white;
+    z-index: -1;
   }
 
-  .top-nav-banner {
-    margin-top: 6px;
+  .nav-gridian {
+    display: flex;
+    margin-top: 5px;
+    position: relative;
   }
 
-  .nav-menu-link {
-    width: 20px;
-    margin-right: 20px;
+  .nav-gridian a:hover {
+    color: black;
   }
 }
 
-/** Tablet ENDS **/
-
 /* Desktop STARTS */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 980px) {
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
@@ -669,6 +774,8 @@ footer {
     justify-content: flex-end;
     width: 100%;
     margin-top: 28px;
+    position: relative;
+    left: 0.2px;
     border: transparent;
   }
 
@@ -683,10 +790,23 @@ footer {
     display: none;
   }
 
-  .top-nav-banner {
-    margin-top: 22px;
-    height: 35px;
+  .nav-gridian {
+    padding-top: 8px;
     display: flex;
+    width: 100%;
+    margin-left: 28px;
+  }
+
+  .nav-gridian a {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .nav-menu-link {
+    position: absolute;
+    width: 20px;
+    top: 0;
+    right: 1px;
   }
 
   .nav-banner-comment {
@@ -694,28 +814,52 @@ footer {
   }
 
   #highlights-3 {
-    margin-top: 0;
-    width: calc(40% - 8px);
-    height: 222px;
+    margin-bottom: 6px;
+    width: 30%;
     float: right;
-    font-size: 20px;
   }
 
   #highlights-2 {
-    width: calc(40% - 8px);
-    height: 220px;
+    width: 30%;
     float: right;
-    font-size: 20px;
   }
 
   #highlights-1 {
-    width: calc(60% - 8px);
-    height: 450px;
+    width: calc(70% - 44px);
+    height: 393px;
     float: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 35%, rgba(253, 0, 0, 0.7) 100%), url(../img/blue_shape.webp);
   }
 
-  #highlights-1 .highlight-title {
+  #highlights-1 .highlight-title a {
     font-size: 32px;
+  }
+
+  .highlight-date {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 250px;
+    font-size: 14px;
+  }
+
+  .latestFunding-header-title {
+    width: 800px;
+  }
+
+  .latestFunding-header-title a:hover {
+    text-decoration: underline;
+  }
+
+  .latestFunding-header-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+    width: calc(100% - 10px);
+    justify-content: flex-end;
+  }
+
+  .links-lineafter {
+    margin: 0 5px;
   }
 
   .latestFunding-card {
