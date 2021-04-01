@@ -1,252 +1,876 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>Perma | TNW</title>
-        <link rel="shortcut icon" href="img/short_cut.ico" />
-        <link href="css/index.css" rel="stylesheet"/>
-        <!-- Import BoxIcons -->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
-        <header>
-            <!-- Nav Bar Fixed STARTS  -->
-            <nav>
-                <div class="top-nav">
-                    <div class="top-nav-record">
-                        <p class="top-nav-record-title">Perma.css Record</p>
-                        <p class="top-nav-record-comment">Captured January 26,2021 5:26pm <a href="#" class="record-comment-link">What is Perma.cc ?</a></p>
-                    </div>
-                    <div>
-                        <button type="button" class="top-nav-button">Show Record Details</button>
-                        <button type="button" class="top-nav-button">View the live page <img class="record-nav-button-img" src="img/chevron-right.svg" alt="chevron-img" /></button>
-                    </div>
-                </div>
-                <div class="top-nav-menu">
-                    <div>
-                    <div class="top-nav-menu-fast-links">
-                            <a href="#">News</a>
-                            <a href="#">Events</a>
-                            <a href="#">Business</a>
-                            <a href="#">AMAs</a>
-                            <a href="#">Spaces</a>
-                            <a href="#">Terms Conditions</a>
-                    </div>
-                    <div class="top-nav-menu-links">
-                        <div class="nav-gridian">
-                            <a href="#">LATEST</a>
-                            <a href="#">HARD FORK</a>
-                            <a href="#">PLUGGED</a>
-                            <a href="#">README</a>
-                            <a href="#">GROWTH QUARTERS</a>
-                        </div>
-                        <a href="#"><img class="nav-menu-link" src="img/search.svg" alt="search-nav" /></a>
-                        <a href="#"><img class="nav-menu-link" id="nav-menu-logo" src="img/list.svg" alt="menu-nav" /></a>
-                    </div>
-                    <a href="#"><img  class="top-nav-menu-logo" src="img/logo.png" alt="logo-nav" /></a>
-                    </div>
-                </div>
-                <div class="top-nav-banner">
-                    <div>
-                        <a href="#" class="nav-banner-comment">Calling young digital talent in the Netherlands - Be recongnized in the T500 <img src="img/arrow-right-short.svg" alt="next" /></a>
-                    </div>
-                </div>
-            </nav>
-            <!-- Nav Bar Fixed ENDS  -->
-        </header>
-        <main>
-            <!-- Highlights STARTS  -->
-            <section>
-                <div class="container-hightlights">
-                    <div class="highlights" id="highlights-1">
-                        <p class="highlight-info">by <a href="#">Ivan Mehta</a> <img src="img/clock.svg" alt="timer"/> 1 hour ago <img src="img/share-fill.svg" alt="share-fill-img" /> 6</p>
-                        <h2 class="highlight-title"><a href="#">Opal cuts off your apps' internet access to help you stop doomscrolling</a></h2>
-                        <p class="highlight-date">Tuesday — January 26, 2021</p>
-                    </div>
-                    <div class="highlights" id="highlights-2">
-                        <p class="highlight-info">by <a href="#">Ivan Mehta</a> <img src="img/clock.svg" alt="timer"/> 1 hour ago <img src="img/share-fill.svg" alt="share-fill-img" /> 6</p>
-                        <h2 class="highlight-title"><a href="#">Opal cuts off your apps' internet access to help you stop doomscrolling</a></h2>                    </div>
-                    <div class="highlights" id="highlights-3">
-                        <p class="highlight-info">by <a href="#">Ivan Mehta</a> <img src="img/clock.svg" alt="timer"/> 1 hour ago <img src="img/share-fill.svg" alt="share-fill-img" /> 6</p>
-                        <h2 class="highlight-title"><a href="#">Opal cuts off your apps' internet access to help you stop doomscrolling</a></h2>                    </div>
-                </div>
-            </section>
-            <!-- Highlights ENDS  -->
-            <!-- Latest Funding STARTS  -->
-            <section>
-                <div class="container-latestFunding">
-                    <div class="latestFunding-header">
-                        <h1 class="latestFunding-header-title"><a href="#">Latest funding rounds on index.co</a></h1>
-                        <nav class="latestFunding-header-links">
-                            <a href="#" class="header-links">See more</a>
-                            <a class="links-lineafter">|</a>
-                            <a href="#" class="header-links">Get updates by email</a>
-                            <a class="links-lineafter">|</a>
-                            <a href="#" class="header-links">Add info</a>
-                        </nav>
-                    </div>
-                    <div class="latestFunding-body">
-                        <div class="latestFunding-card">
-                            <img class="labels-img" src="img/ringover-image.webp" alt="ringover-image">
-                            <div class="card-name">
-                                <h4 class="card-title"><a href="#">Ringover</a></h4>
-                            </div>
-                            <div class="card-price">
-                                <h4>$12M</h4>
-                                <h5>SERIES A</h5>
-                            </div>
-                            <div class="card-labels">
-                                <div class="labels-container">
-                                    <img src="img/tag-icon.png" alt="label-icon">
-                                    <a href="#">Telecomunications</a>
-                                </div>
-                                <div class="labels-container">
-                                    <img src="img/briefcase-icon.png" alt="label-icon">
-                                    <a href="#">Expedition Grwoth Capital</a>
-                                </div>    
-                            </div>
-                            <div class="card-description">
-                                <a href="#">Ringover raises $12 million to bring enterprise communications to the cloud</a>
-                                <span>on VentureBeat</span>
-                            </div>
-                        </div>
-                        <div class="latestFunding-card">
-                            <img class="labels-img" src="img/swissdecode-image.webp" alt="ringover-image">
-                            <div class="card-name">
-                                <h4 class="card-title"><a href="#">SwissDeCode</a></h4>
-                            </div>
-                            <div class="card-price">
-                                <h4>$4.2M</h4>
-                                <h5>VENTURE CAPITAL</h5>
-                            </div>
-                            <div class="card-labels">
-                                <div class="labels-container">
-                                    <img src="img/tag-icon.png" alt="label-icon">
-                                    <a>Biotechnology</a>
-                                </div>
-                                <div class="labels-container">
-                                    <img src="img/briefcase-icon.png" alt="label-icon">
-                                    <a>VisVires New Protein</a>
-                                </div>    
-                            </div>
-                            <div class="card-description">
-                                <a>BREAKING: Food testing startup SwissDeCode nets $4.2m from VisVires New Protein, EIT Food</a>
-                                <span>on AgFunderNews</span>
-                            </div>
-                        </div>
-                        <div class="latestFunding-card">
-                            <img class="labels-img" src="img/klook-image.jpg" alt="ringover-image">
-                            <div class="card-name">
-                                <h4 class="card-title"><a href="#">Klook</a></h4>
-                            </div>
-                            <div class="card-price">
-                                <h4>$200M</h4>
-                                <h5>SERIES E</h5>
-                            </div>
-                            <div class="card-labels">
-                                <div class="labels-container">
-                                    <img src="img/tag-icon.png" alt="label-icon">
-                                    <a>Internet</a>
-                                </div>
-                                <div class="labels-container">
-                                    <img src="img/briefcase-icon.png" alt="label-icon">
-                                    <a>Boyu Capital, +4</a>
-                                </div>    
-                            </div>
-                            <div class="card-description">
-                                <a>SoftBank-backed travel platform Klook raises $200M amid COVID-19</a>
-                                <span>on TechCrunch</span>
-                            </div>
-                        </div>
-                        <div class="latestFunding-card" id="wolt-card">
-                            <img class="labels-img" src="img/wolt-image.jpg" alt="ringover-image">
-                            <div class="card-name">
-                                <h4 class="card-title"><a href="#">Wolt</a></h4>
-                            </div>
-                            <div class="card-price">
-                                <h4>$530M</h4>
-                                <h5>VENTURE CAPITAL</h5>
-                            </div>
-                            <div class="card-labels">
-                                <div class="labels-container">
-                                    <img src="img/tag-icon.png" alt="label-icon">
-                                    <a>Mobile, +5</a>
-                                </div>
-                                <div class="labels-container">
-                                    <img src="img/briefcase-icon.png" alt="label-icon">
-                                    <a>DST Global, +9</a>
-                                </div>    
-                            </div>
-                            <div class="card-description">
-                                <a>Food delivery startup Wolt raises $530M after tripling revenues</a>
-                                <span>on SiliconANGLE</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Topics STARTS  -->
-            <section class="topics-section">
-                <h2><a href="#" class="latestFunding-header-title">Hard Fork<img src="../img/arrow-right-short.svg" alt="arrow-right-icon"></a></h2>
-                <div class="categories-img-container">
-                    <div class="img-container-details">
-                        <a href="#" class="details-author">Ivan Mehta</a>
-                        <time class="details-date">1 day ago</time>
-                    </div>
-                    <a href="#" class="img-container-titleNew">GameStop stocks hit record high - thanks to Redditors</a>
-                    <p class="img-container-src">MOST POPULAR</p>
-                </div>
-                <div class="latest-container">
-                    <div>
-                        <h5 class="latest-header">LATEST</h5>
-                        <a href="#" class="latest-title">Alibaba shares jump 8% as Jack Ma surfaces after 3 months</a>    
-                    </div>
-                    <a href="#" class="latest-image"></a>
-                </div>
-                <ul>
-                    <il><a href="#" class="latest-link">Twitter shares fall 7% in pre-market trading after Trump's removal</a></il>
-                    <il><a href="#" class="latest-link">Winklevoss comes out of meditation to witness Bitcoin's record high</a></il>
-                    <il><a href="#" class="latest-link">CD Projekt Rekt: Cyberpunk 2077 tanks studio's share price nearly 50%</a></il>
-                    <il><a href="#" class="latest-link">CD Projekt stock down 20% since Cyberpunk reviews hit the internet</a></il>
-                    <il><a href="#" class="latest-link">Airbnb to be bigger than eBay after its long-awaited IPO</a></il>
-                </ul>
-            </section>
-            <!-- Topics ENDS  -->
-        </main>
-        <footer>
-            <!-- FOOTER Top Section STARTS  -->
-            <div class="footer-section-top">
-                <nav class="footer-socialmedia-icons">
-                    <a class="footer-icon" href="#"><i class='bx bxl-facebook-square'></i></a>
-                    <a class="footer-icon" href="#"><i class='bx bxl-twitter'></i></a>
-                    <a class="footer-icon" href="#"><i class='bx bxl-youtube'></i></a>
-                    <a class="footer-icon" href="#"><i class='bx bxl-instagram-alt'></i></a>
-                    <a class="footer-icon" href="#"><i class='bx bxl-pinterest-alt'></i></a>
-                    <a class="footer-icon" href="#"><i class='bx bx-wifi-2'></i></a>
-                    <a class="footer-icon" href="#"><i class='bx bx-mail-send'></i></a>
-                </nav>
-                <nav class="footer-links">
-                    <a href="#" class="footer-links">EVENTS</a>
-                    <a href="#" class="footer-links">ABOUT</a>
-                    <a href="#" class="footer-links">ADVERTISE</a>
-                    <a href="#" class="footer-links">JOBS</a>
-                    <a href="#" class="footer-links">CONTACT</a>
-                </nav>
-            </div>
-            <!-- FOOTER Top Section ENDS  -->
-            <!-- FOOTER Buttom Section STARTS  -->
-            <div class="footer-section-buttom">
-                <p>
-                    <a href="#"><img class="footer-logo" src="https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646im_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="logo" ></a>
-                    <i>The Next Web</i> 
-                    © 2006–2021 The Next Web B.V.
-                    Made with love in Amsterdam.
-                    Powered by
-                    <a href="#"><img class="footer-logo" src="img/stackpath-logo.svg" alt="logo" ></a>
-                </p>
-            </div>
-            <!-- FOOTER Buttom Section ENDS  -->
-        </footer>
-    </body>
-</html>
+/* General Attributes STARTS */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin-top: 250px;
+}
+
+/* General Attributes ENDS */
+
+/* NAV BAR FIXED STARTS */
+
+.top-nav {
+  position: fixed;
+  background-color: #2d76ee;
+  width: 100%;
+  font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+  padding: 0;
+  z-index: 1;
+  min-height: 86px;
+}
+
+.top-nav-record {
+  padding: 2px 16px;
+  max-height: 82px;
+}
+
+.top-nav-record-title {
+  height: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.top-nav-record-comment {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  display: flex;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.record-comment-link {
+  text-decoration: underline;
+  color: #fff;
+  margin-left: 12px;
+}
+
+.top-nav-menu-fast-links {
+  display: none;
+}
+
+.top-nav-button {
+  display: inline-block;
+  width: 50%;
+  min-height: 48px;
+  background-color: #2d76ee;
+  border: 1px solid #fff;
+  color: white;
+  border-bottom: none;
+  margin-left: -2.5px;
+}
+
+.record-nav-button-img {
+  width: 9px;
+}
+
+.top-nav-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.top-nav-menu {
+  position: fixed;
+  top: 132px;
+  background-color: white;
+  width: 100%;
+  height: 48px;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  z-index: 1;
+}
+
+.top-nav-menu-logo {
+  width: 106px;
+  height: 48px;
+}
+
+.top-nav-menu-links {
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+}
+
+.menu-links-first {
+  display: none;
+}
+
+.nav-menu-link {
+  width: 25px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.top-nav-banner {
+  position: fixed;
+  top: 160px;
+  text-align: start;
+  background-color: yellow;
+  height: 30px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.top-nav-banner a {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+}
+
+.highlight-info a {
+  color: #fff9;
+  text-decoration: none;
+}
+
+.highlight-date {
+  display: none;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.latestFunding-header-links a {
+  font-size: 14px;
+  color: #f42;
+  text-decoration: none;
+  margin-top: 11px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #aaa;
+  font-family: sans-serif;
+  margin-bottom: 24px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.nav-banner-comment {
+  margin-left: 10px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+}
+
+.top-nav-menu-2 {
+  display: none;
+}
+
+/* NAV BAR FIXED ENDS */
+
+/* MAIN STARTS */
+
+/* HIGHLIGHTS STARTS */
+
+.highlights {
+  min-height: 190px;
+  color: #fff;
+  font-size: 100%;
+  font-family: Avalon, sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column-reverse;
+  background-size: cover;
+  background-position: center;
+  margin: -4px 4px 8px 4px;
+  align-items: flex-end;
+  align-content: flex-start;
+  padding: 5px;
+}
+
+#highlights-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/blue_shape.webp);
+}
+
+#highlights-2 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/screen_image.webp);
+}
+
+#highlights-3 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/screen_image.webp);
+}
+
+.highlight-title {
+  display: block;
+  width: calc(100% - 8px);
+}
+
+.highlight-title a {
+  text-decoration: none;
+  color: wheat;
+  width: fit-content;
+  margin: 0;
+  font-size: 18px;
+}
+
+.highlight-info {
+  text-decoration: none;
+  color: #fff9;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 19px;
+  width: calc(100% - 10%);
+}
+
+/* HIGHLIGHTS ENDS */
+
+/** Latest funding STARTS **/
+
+.links-lineafter {
+  display: none;
+  margin-left: 5px;
+}
+
+.latestFunding-header-title {
+  display: inline-block;
+  font-size: 28px;
+}
+
+.latestFunding-header-title a {
+  text-decoration: none;
+  color: #f42;
+  font-size: 28px;
+}
+
+.container-latestFunding {
+  padding: 20px;
+  margin-top: 64px;
+  font-family: sans-serif;
+}
+
+.latestFunding-header {
+  font-size: 28px;
+  color: #f42;
+  font-weight: 700;
+  padding-bottom: 18px;
+}
+
+.latestFunding-header-links {
+  display: flex;
+  margin-top: -20px;
+  flex-direction: column;
+}
+
+.latestFunding-body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.latestFunding-card {
+  margin-top: 24px;
+  background-color: rgba(255, 68, 34, 0);
+}
+
+.card-labels a {
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+.card-name {
+  background-color: #f42;
+  color: #fff;
+  min-height: 43.33px;
+  padding-left: 84px;
+  font-size: 18px;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: white;
+}
+
+.card-description a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card-description span {
+  color: #aaa;
+}
+
+.card-description a span {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.labels-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.latestFunding-header-links a:hover {
+  text-decoration: underline;
+}
+
+.card-description a:hover {
+  text-decoration: underline;
+}
+
+.top-nav-banner a:hover {
+  text-decoration: underline;
+}
+
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+.highlight-info a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.labels-container a:hover {
+  text-decoration: underline;
+}
+
+.card-name h4 {
+  margin: 0;
+  padding-top: 10.66px;
+}
+
+.labels-img {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  margin: 10.66px;
+  z-index: 1;
+}
+
+.card-price {
+  padding-left: 84px;
+  color: #000;
+  background-color: rgba(255, 68, 34, 0.08);
+  margin: 0;
+  height: 48px;
+}
+
+.card-price h4 {
+  margin: 0;
+  padding-top: 11px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-price h5 {
+  margin: 0;
+  margin-bottom: 11px;
+  font-weight: 100;
+  font-size: 11px;
+}
+
+.labels-container {
+  display: flex;
+  padding: 6px;
+}
+
+.labels-container img {
+  height: 16px;
+  width: 16px;
+}
+
+.labels-container p {
+  font-size: 13px;
+  margin: 0;
+  padding-left: 8px;
+  font-weight: 100;
+}
+
+.card-description {
+  border-top: rgba(255, 68, 34, 0.25) 1px solid;
+  padding: 16px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+#wolt-card {
+  display: none;
+}
+
+.nav-gridian {
+  display: none;
+}
+
+/** Latest funding ENDS **/
+
+/** Topics STARTS **/
+
+.topics-section {
+  padding: 16px;
+}
+
+.topics-section .latestFunding-header-title {
+  color: #f42;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.categories-img-container {
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: 300px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 16px;
+}
+
+.img-container-src {
+  color: #fff;
+  margin: 5px 0;
+}
+
+.img-container-titleNew {
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding-right: 50px;
+  font-weight: 600;
+}
+
+.details-author {
+  color: #aaa;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.details-author::after {
+  content: ' · ';
+}
+
+.details-date {
+  color: #aaa;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.latest-container {
+  background-color: #f422;
+  margin: 0;
+  display: flex;
+  height: 96px;
+}
+
+.latest-header {
+  margin: 0;
+  padding-top: 16px;
+  padding-left: 16px;
+  color: #f42;
+  font-size: 13px;
+}
+
+.latest-title {
+  padding-left: 16px;
+  text-decoration: none;
+  color: #f42;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.latest-image {
+  background-image: url(../img/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 96px;
+  width: 96px;
+}
+
+/** Topics ENDS **/
+
+/** Footer STARTS ***/
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section-top {
+  background-color: #191919;
+  max-height: 160px;
+  padding: 0;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-icon {
+  color: white;
+}
+
+.footer-icon:visited {
+  color: white;
+}
+
+.footer-logo {
+  width: 40px;
+}
+
+/** Footer ENDS ***/
+
+/** Footer STARTS ***/
+
+.footer-socialmedia-icons,
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.footer-link {
+  font-family: sans-serif;
+}
+
+.bx {
+  margin: 4px;
+  background: #333;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.bx:hover {
+  background: #131313;
+  border: #333 2px solid;
+}
+
+.footer-section-buttom {
+  background-color: #000;
+  margin-top: -16px;
+  min-height: 97px;
+  display: flex;
+}
+
+.footer-section-buttom p {
+  text-align: center;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 12px;
+  display: block;
+  margin: 22px auto;
+  color: #aaa;
+  max-width: 250px;
+}
+
+.footer-section-buttom p i {
+  color: #fff;
+  font-weight: 700;
+}
+
+/** Footer ENDS ***/
+
+/* MAIN ENDS */
+
+/* Media Queries STARTS */
+
+/** Tablet STARTS **/
+
+@media screen and (min-width: 720px) {
+  .top-nav-menu {
+    position: fixed;
+    top: 120px;
+    background-color: white;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+  }
+
+  .top-nav-button {
+    background-color: #2d76ee;
+    border: 1px solid #fff;
+    color: white;
+    border-bottom: none;
+  }
+
+  .top-nav-banner {
+    position: fixed;
+    text-align: start;
+    background-color: yellow;
+    max-height: 30px;
+    margin: 0;
+  }
+
+  .top-nav-banner a {
+    font-size: 15px;
+    padding-left: 5px;
+  }
+
+  #nav-menu-logo {
+    display: none;
+  }
+
+  .nav-menu-link {
+    position: absolute;
+    width: 20px;
+    top: 0;
+    right: 120px;
+  }
+
+  .top-nav-menu-fast-links {
+    margin: 0;
+    width: calc(100% - 5px);
+    display: flex;
+    background-color: #000;
+    position: relative;
+    left: 100px;
+  }
+
+  .top-nav-menu-fast-links a {
+    text-decoration: none;
+    color: #aaa;
+    margin-left: 5px;
+  }
+
+  .nav-gridian a {
+    margin: 5px;
+    text-decoration: none;
+    color: #aaa;
+  }
+
+  .top-nav-menu-logo {
+    display: flex;
+    position: absolute;
+    bottom: -10px;
+    width: 100px;
+    height: 55px;
+  }
+
+  main {
+    margin-top: 220px;
+  }
+
+  #highlights-3 {
+    width: 35%;
+    float: right;
+  }
+
+  #highlights-2 {
+    width: 35%;
+    float: right;
+  }
+
+  #highlights-1 {
+    width: calc(65% - 44px);
+    height: 394px;
+    float: left;
+  }
+
+  .highlight-title {
+    display: flex;
+    margin: 0 5px;
+    font-size: 15px;
+  }
+
+  .highlights p {
+    padding-right: 9%;
+  }
+
+  #highlights-1 .highlight-title a {
+    font-size: 28px;
+  }
+
+  /** Latest funding STARTS **/
+
+  .latestFunding-header-title {
+    width: 800px;
+  }
+
+  .latestFunding-header-title a {
+    text-decoration: none;
+    color: #f42;
+    font-size: 28px;
+  }
+
+  .top-nav-menu-fast-links a:hover {
+    text-decoration: underline;
+  }
+
+  .latestFunding-header-title a:hover {
+    text-decoration: underline;
+  }
+
+  .latestFunding-header-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    width: calc(100% - 10px);
+    justify-content: flex-start;
+  }
+
+  .links-lineafter {
+    display: block;
+    margin: 0 5px;
+  }
+
+  .latestFunding-body {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .latestFunding-card {
+    width: 32%;
+  }
+
+  /** Latest funding ENDS **/
+
+  .top-nav-menu-links {
+    display: block;
+    width: 100%;
+    max-height: 36px;
+    position: relative;
+    left: 126px;
+    padding-right: 25px;
+    border: 1px solid #000;
+    background-color: white;
+    z-index: -1;
+  }
+
+  .nav-gridian {
+    display: flex;
+    margin-top: 5px;
+    position: relative;
+  }
+
+  .nav-gridian a:hover {
+    color: black;
+  }
+}
+
+/* Desktop STARTS */
+@media screen and (min-width: 980px) {
+  .top-nav-menu-fast-links {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    padding: 8px;
+    margin: 0;
+  }
+
+  .top-nav-menu-links {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 28px;
+    position: relative;
+    left: 0.2px;
+    border: transparent;
+  }
+
+  .menu-links-first {
+    display: flex;
+    width: 90%;
+    padding-left: 8px;
+    margin-top: 8px;
+  }
+
+  .top-nav-menu-logo {
+    display: none;
+  }
+
+  .nav-gridian {
+    padding-top: 8px;
+    display: flex;
+    width: 100%;
+    margin-left: 28px;
+  }
+
+  .nav-gridian a {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .nav-menu-link {
+    position: absolute;
+    width: 20px;
+    top: 0;
+    right: 1px;
+  }
+
+  .nav-banner-comment {
+    margin: 8px;
+  }
+
+  #highlights-3 {
+    margin-bottom: 6px;
+    width: 30%;
+    float: right;
+  }
+
+  #highlights-2 {
+    width: 30%;
+    float: right;
+  }
+
+  #highlights-1 {
+    width: calc(70% - 44px);
+    height: 393px;
+    float: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 35%, rgba(253, 0, 0, 0.7) 100%), url(../img/blue_shape.webp);
+  }
+
+  #highlights-1 .highlight-title a {
+    font-size: 32px;
+  }
+
+  .highlight-date {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 250px;
+    font-size: 14px;
+  }
+
+  .latestFunding-header-title {
+    width: 800px;
+  }
+
+  .latestFunding-header-title a:hover {
+    text-decoration: underline;
+  }
+
+  .latestFunding-header-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+    width: calc(100% - 10px);
+    justify-content: flex-end;
+  }
+
+  .links-lineafter {
+    margin: 0 5px;
+  }
+
+  .latestFunding-card {
+    width: 24%;
+  }
+
+  #wolt-card {
+    display: block;
+  }
+}
+
+/* Desktop ENDS */
+
+/* Media Queries ENDS */
