@@ -676,6 +676,70 @@ header {
 }
 /*** Topics end ***/
 
+/****deals***/
+
+.deals_header {
+  width: 170px;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+.deals_header a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.deals_menu {
+  width: 100px;
+  float: right;
+  margin-right: 10px;
+}
+
+.deals_menu a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.deals_container {
+  width: 80%;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+.deals_img {
+  width: 100px;
+  height: 90px;
+  padding-top: 20px;
+}
+
+.deal_info {
+  width: 190px;
+  float: right;
+}
+
+.deal_title a {
+  text-decoration: none;
+  color: black;
+}
+
+.deal_title a:hover {
+  text-decoration: underline;
+}
+
+.deal_price {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.deal_current_price {
+  text-decoration:none;
+  color: #777;
+}
+
+.deal_current_price:hover {
+  color: black;
+}
+/************/
 /** Footer STARTS ***/
 
 footer {
