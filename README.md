@@ -28,7 +28,7 @@ Mobile Version :
 
 ![screenshot](./img/screenshot/cate_phone.png)
 ![screenshot](./img/screenshot/news_phone.png)
-![screenshot](./img/screenshot/deals_phone)
+![screenshot](./img/screenshot/deals_phone.png)
 
 Tablet Version :
 
