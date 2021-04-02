@@ -331,7 +331,7 @@ header {
   color: black;
 }
 
-.latest-news-header a{
+.latest-news-header a {
   text-decoration: none;
   color: #f42;
 }
@@ -353,7 +353,6 @@ header {
   font-size: 12px;
   font-family: sans-serif;
 }
-
 
 .latest-title a {
   text-decoration: none;
@@ -699,7 +698,7 @@ header {
   margin: 5px 0;
   margin-left: -40px;
   padding-bottom: 5px;
-  font-size: 14;
+  font-size: 14px;
   color: #333;
 }
 
@@ -719,7 +718,7 @@ header {
 
 /*** Topics end ***/
 
-/****deals***/
+/** deals **/
 
 .deals_header {
   width: 170px;
@@ -866,7 +865,7 @@ footer {
 /** Tablet STARTS **/
 
 @media screen and (min-width: 720px) {
-  
+
   .top-nav-menu {
     position: fixed;
     top: 120px;
@@ -896,6 +895,10 @@ footer {
   .top-nav-banner a {
     font-size: 15px;
     padding-left: 5px;
+  }
+
+  .top-nav-menu-fast-links a:hover {
+    text-decoration: underline;
   }
 
   #nav-menu-logo {
@@ -928,6 +931,10 @@ footer {
     margin: 5px;
     text-decoration: none;
     color: #aaa;
+  }
+
+  .latestFunding-header-title a:hover {
+    text-decoration: underline;
   }
 
   .top-nav-menu-logo {
@@ -984,8 +991,7 @@ footer {
   #highlights-1 .highlight-title a {
     font-size: 28px;
   }
-   
-  /*****topics2*****/
+
   /** Topics 2 ***/
 
   .topic_2 {
@@ -1002,21 +1008,13 @@ footer {
   .grid_second_part {
     margin-top: 150px;
   }
-  
-  /*** Topics end ***/
-  /*****************/
+
+  /** Topics end **/
+
   /** Latest funding STARTS **/
 
   .latestFunding-header-title {
     width: 800px;
-  }
-
-  .top-nav-menu-fast-links a:hover {
-    text-decoration: underline;
-  }
-
-  .latestFunding-header-title a:hover {
-    text-decoration: underline;
   }
 
   .latestFunding-header-links {
@@ -1047,10 +1045,10 @@ footer {
 
   .news {
     display: flex;
-    flex-direction: row;
     flex-flow: wrap;
+    flex-direction: row;
   }
-  
+
   .latest-news-header {
     display: block;
     width: 95%;
@@ -1304,7 +1302,7 @@ footer {
     min-height: 170px;
     margin: 0;
   }
-
+  
   /* Latest Deals ENDS */
 
 }
