@@ -1090,6 +1090,10 @@ footer {
 
   /* Latest Deals STARTS */
 
+  .deals {
+    padding-left: 80px;
+  }
+
   .deals-grid {
     padding: 32px;
     margin-top: 48px;
@@ -1262,6 +1266,10 @@ footer {
   }
 
   /* Latest Deals STARTS */
+  
+  .deals {
+    padding-left: 80px;
+  }
 
   .deals-grid {
     padding: 32px;
