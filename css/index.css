@@ -1303,7 +1303,6 @@ footer {
     padding: 32px;
     margin-top: -50px;
     display: grid;
-    padding-left: 0px;
     grid-template-columns: 28% 28% 28% 28%;
     grid-template-rows: 280px;
   }
