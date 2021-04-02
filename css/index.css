@@ -1296,14 +1296,15 @@ footer {
   /* Latest Deals STARTS */
 
   .deals {
-    padding-left: 50px;
+    padding-left: 70px;
   }
 
   .deals-grid {
     padding: 32px;
-    margin-top: 64px;
+    margin-top: -50px;
     display: grid;
-    grid-template-columns: 24% 24% 24% 24%;
+    padding-left: 0px;
+    grid-template-columns: 28% 28% 28% 28%;
     grid-template-rows: 280px;
   }
 
