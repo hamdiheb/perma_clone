@@ -3,10 +3,17 @@
 body {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 main {
   margin-top: 250px;
+}
+
+.section {
+  display: block;
+  margin: 16px auto;
+  max-width: 1200px;
 }
 
 /* General Attributes ENDS */
@@ -207,11 +214,12 @@ header {
 .highlight-title {
   display: block;
   width: calc(100% - 8px);
+  margin: 0;
 }
 
 .highlight-title a {
   text-decoration: none;
-  color: wheat;
+  color: white;
   width: fit-content;
   margin: 0;
   font-size: 18px;
@@ -219,11 +227,16 @@ header {
 
 .highlight-info {
   text-decoration: none;
+  display: block;
   color: #fff9;
   font-size: 14px;
   margin: 0;
   margin-bottom: 19px;
-  width: calc(100% - 10%);
+  width: calc(100% - 2%);
+}
+
+.highlight-tnw-logo {
+  display: none;
 }
 
 /* HIGHLIGHTS ENDS */
@@ -311,6 +324,65 @@ header {
 .labels-container a {
   text-decoration: none;
   color: black;
+}
+
+.latest-news-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.latest-news-header a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.latest-news-details a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.deals_header a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.latest-header a {
+  text-decoration: none;
+  color: #f42;
+  padding-left: 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.latest-title a {
+  text-decoration: none;
+  color: #f42;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  font-family: sans-serif;
+  width: calc(70%);
+}
+
+.deal_title a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.deals_menu a {
+  text-decoration: none;
+  color: #f42;
+  font-weight: 300;
+}
+
+.latest-li a {
+  display: inline-block;
+  padding-left: 0;
+  color: #777;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 .latestFunding-header-links a:hover {
@@ -407,10 +479,49 @@ header {
 
 /** Latest funding ENDS **/
 
+/** Latest news **/
+.news {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-container {
+  padding: 8px 0;
+}
+
+.latest-news-img {
+  width: 90px;
+  height: 80px;
+  float: left;
+  padding-right: 5px;
+}
+
+.latest-news-title {
+  font-size: 14px;
+  width: 90%;
+}
+
+.latest-news-title a:hover {
+  text-decoration: underline;
+}
+
+.latest-news-details {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.latest-news-author::after {
+  content: ' · ';
+}
+
 /** Topics STARTS **/
 
 .topics-section {
-  padding: 16px;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  padding: 8px;
 }
 
 .topics-section .latestFunding-header-title {
@@ -446,11 +557,79 @@ header {
   font-weight: 600;
 }
 
+.latest-image {
+  background-image: url(../img/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 96px;
+  width: 96px;
+}
+
+/** Topics ENDS **/
+
+.latest-news-details a:hover {
+  color: black;
+}
+
+/** Latest news end **/
+
+/** Topics STARTS **/
+
+.topic {
+  width: 100%;
+}
+
+.section-header-title {
+  display: block;
+  font-size: 22px;
+  color: #f42;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.section-header-title:hover {
+  color: #000;
+}
+
+/** Footer ENDS ***/
+
+/** Footer STARTS ***/
+
+#gear-topic {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/gear-topics-section-background.jpg);
+}
+
+#app-topic {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/apps-topics-section-background.png);
+}
+
+#tech_topic {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/tech-topics-section-background.jpg);
+}
+
+#creative_topic {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/creative-topics-section-background.png);
+}
+
+#podium_topic {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/podium-topics-section-background.png);
+}
+
+.img-container-titleNew:hover {
+  text-decoration: underline;
+}
+
 .details-author {
   color: #aaa;
   font-family: sans-serif;
   text-decoration: none;
   font-size: 12px;
+}
+
+.details-author:hover {
+  color: #fff;
 }
 
 .details-author::after {
@@ -464,7 +643,7 @@ header {
 }
 
 .latest-container {
-  background-color: #f422;
+  background-color: #f421;
   margin: 0;
   display: flex;
   height: 96px;
@@ -472,33 +651,132 @@ header {
 
 .latest-header {
   margin: 0;
-  padding-top: 16px;
-  padding-left: 16px;
-  color: #f42;
-  font-size: 13px;
+  padding: 10px;
+}
+
+.latest-header a:hover {
+  text-decoration: underline;
+}
+
+.latest-container div {
+  width: 100%;
 }
 
 .latest-title {
-  padding-left: 16px;
   text-decoration: none;
   color: #f42;
-  font-weight: 700;
-  font-family: sans-serif;
-  font-size: 14px;
+  margin: 0;
+  padding-left: 20px;
 }
 
-.latest-image {
-  background-image: url(../img/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.latest-title a:hover {
+  text-decoration: underline;
+}
+
+.latest-img {
+  width: 120px;
   height: 96px;
-  width: 96px;
+  float: right;
+  right: 8px;
+  justify-items: flex-end;
+}
+
+.latest-ul {
+  list-style: none;
+}
+
+.latest-ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.latest-li {
+  display: flex;
+  border-bottom: 1px solid #aaa5;
+  margin: 5px 0;
+  margin-left: -40px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.latest-li a:hover {
+  color: black;
 }
 
 /** Topics ENDS **/
 
-/** Footer STARTS ***/
+/** Topics 2 ***/
+
+.topic_2 {
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  padding-left: 2px;
+}
+
+/*** Topics end ***/
+
+/** deals **/
+
+.deals_header {
+  width: 170px;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+.deals_menu {
+  float: right;
+  margin-right: 10px;
+}
+
+.deals_container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.deals_img {
+  width: 100px;
+  height: 90px;
+  margin: 10px;
+  border-right: #000 1px solid;
+  border-bottom: #000 1px solid;
+}
+
+.deals-ribbon-svg {
+  display: none;
+}
+
+.deal_info {
+  float: right;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.deal_info p {
+  margin: 5px;
+}
+
+.deal_title a:hover {
+  text-decoration: underline;
+}
+
+.deal_price {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.deal_current_price {
+  text-decoration: none;
+  color: #555;
+}
+
+.deal_current_price:hover {
+  color: black;
+}
+
+/** Footer STARTS **/
 
 footer {
   margin: 0;
@@ -527,9 +805,9 @@ footer {
   width: 40px;
 }
 
-/** Footer ENDS ***/
+/** Footer ENDS **/
 
-/** Footer STARTS ***/
+/** Footer STARTS **/
 
 .footer-socialmedia-icons,
 .footer-links {
@@ -578,7 +856,7 @@ footer {
   font-weight: 700;
 }
 
-/** Footer ENDS ***/
+/** Footer ENDS **/
 
 /* MAIN ENDS */
 
@@ -608,6 +886,7 @@ footer {
     position: fixed;
     text-align: start;
     background-color: yellow;
+    width: 100%;
     max-height: 30px;
     margin: 0;
   }
@@ -615,6 +894,22 @@ footer {
   .top-nav-banner a {
     font-size: 15px;
     padding-left: 5px;
+  }
+
+  .top-nav-menu-fast-links a {
+    text-decoration: none;
+    color: #aaa;
+    margin-left: 5px;
+  }
+
+  .nav-gridian a {
+    margin: 5px;
+    text-decoration: none;
+    color: #aaa;
+  }
+
+  .top-nav-menu-fast-links a:hover {
+    text-decoration: underline;
   }
 
   #nav-menu-logo {
@@ -637,16 +932,8 @@ footer {
     left: 100px;
   }
 
-  .top-nav-menu-fast-links a {
-    text-decoration: none;
-    color: #aaa;
-    margin-left: 5px;
-  }
-
-  .nav-gridian a {
-    margin: 5px;
-    text-decoration: none;
-    color: #aaa;
+  .latestFunding-header-title a:hover {
+    text-decoration: underline;
   }
 
   .top-nav-menu-logo {
@@ -683,6 +970,10 @@ footer {
     font-size: 15px;
   }
 
+  .highlight-info {
+    width: calc(100% - 10%);
+  }
+
   .highlights p {
     padding-right: 9%;
   }
@@ -691,24 +982,29 @@ footer {
     font-size: 28px;
   }
 
+  /** Topics 2 ***/
+
+  .topic_2 {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    padding-left: 50px;
+  }
+
+  .topic_2_container {
+    margin-left: 10px;
+    padding-top: 50px;
+  }
+
+  .grid_second_part {
+    margin-top: 150px;
+  }
+
+  /** Topics end **/
+
   /** Latest funding STARTS **/
 
   .latestFunding-header-title {
     width: 800px;
-  }
-
-  .latestFunding-header-title a {
-    text-decoration: none;
-    color: #f42;
-    font-size: 28px;
-  }
-
-  .top-nav-menu-fast-links a:hover {
-    text-decoration: underline;
-  }
-
-  .latestFunding-header-title a:hover {
-    text-decoration: underline;
   }
 
   .latestFunding-header-links {
@@ -735,6 +1031,55 @@ footer {
 
   /** Latest funding ENDS **/
 
+  /* Latest News STARTS */
+
+  .news {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+  }
+
+  .latest-news-header {
+    display: block;
+    width: 95%;
+  }
+
+  .news-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
+  }
+
+  .latest-news-img {
+    width: 100%;
+    min-height: 132px;
+    overflow: hidden;
+  }
+
+  .latest-news-title {
+    margin: 8px 0;
+  }
+
+  .latest-news-details {
+    margin: 0;
+  }
+
+  /* Latest News ENDS */
+
+  .topics-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .topic {
+    width: calc(50% - 50px);
+    margin: 16px;
+    padding-left: 5px;
+  }
+
   .top-nav-menu-links {
     display: block;
     width: 100%;
@@ -753,13 +1098,38 @@ footer {
     position: relative;
   }
 
-  .nav-gridian a:hover {
-    color: black;
+  /* Latest Deals STARTS */
+
+  .deals-grid {
+    padding: 32px;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 280px;
+    grid-row-gap: 10px;
+  }
+
+  .deals_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .deals_img {
+    width: 90%;
+    min-height: 170px;
+    margin: 0;
+  }
+
+  .deal_info {
+    width: 90%;
   }
 }
 
+/* Latest Deals ENDS */
+
 /* Desktop STARTS */
-@media screen and (min-width: 980px) {
+
+@media screen and (min-width: 1124px) {
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
@@ -831,6 +1201,10 @@ footer {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 35%, rgba(253, 0, 0, 0.7) 100%), url(../img/blue_shape.webp);
   }
 
+  .nav-gridian a:hover {
+    color: black;
+  }
+
   #highlights-1 .highlight-title a {
     font-size: 32px;
   }
@@ -842,12 +1216,15 @@ footer {
     font-size: 14px;
   }
 
-  .latestFunding-header-title {
-    width: 800px;
+  .highlight-tnw-logo {
+    position: absolute;
+    display: block;
+    left: 22px;
+    top: 250px;
   }
 
-  .latestFunding-header-title a:hover {
-    text-decoration: underline;
+  .latestFunding-header-title {
+    width: 800px;
   }
 
   .latestFunding-header-links {
@@ -869,8 +1246,48 @@ footer {
   #wolt-card {
     display: block;
   }
+
+  .news-container {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
+  }
+
+  .topic {
+    width: 30%;
+  }
+
+  .topic_2 {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    padding-left: 40px;
+  }
+
+  .topic_2_container {
+    margin-left: 35px;
+  }
+
+  /* Latest Deals STARTS */
+
+  .deals-grid {
+    padding: 32px;
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 280px;
+  }
+
+  .deals_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .deals_img {
+    width: 90%;
+    min-height: 170px;
+    margin: 0;
+  }
 }
-
-/* Desktop ENDS */
-
-/* Media Queries ENDS */
