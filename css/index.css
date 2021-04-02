@@ -865,6 +865,10 @@ footer {
 /** Tablet STARTS **/
 
 @media screen and (min-width: 720px) {
+  .top-nav {
+    width: 93%;
+  }
+
   .top-nav-menu {
     position: fixed;
     top: 120px;
@@ -873,6 +877,7 @@ footer {
     border: 1px solid black;
     border-left: none;
     border-right: none;
+    width: 93%;
   }
 
   .top-nav-button {
@@ -886,7 +891,7 @@ footer {
     position: fixed;
     text-align: start;
     background-color: yellow;
-    width: 100%;
+    width: 93%;
     max-height: 30px;
     margin: 0;
   }
@@ -919,13 +924,13 @@ footer {
   .nav-menu-link {
     position: absolute;
     width: 20px;
-    top: 0;
-    right: 120px;
+    bottom: 1px;
+    left: 720px;
   }
 
   .top-nav-menu-fast-links {
     margin: 0;
-    width: calc(100% - 5px);
+    width: 87%;
     display: flex;
     background-color: #000;
     position: relative;
@@ -1082,11 +1087,9 @@ footer {
 
   .top-nav-menu-links {
     display: block;
-    width: 100%;
+    width: 76%;
     max-height: 36px;
-    position: relative;
-    left: 126px;
-    padding-right: 25px;
+    padding-right: 85px;
     border: 1px solid #000;
     background-color: white;
     z-index: -1;
@@ -1095,18 +1098,23 @@ footer {
   .nav-gridian {
     display: flex;
     margin-top: 5px;
+    padding-left: 5px;
     position: relative;
   }
 
   /* Latest Deals STARTS */
 
+  .deals {
+    padding-left: 20px;
+  }
+
   .deals-grid {
-    padding: 32px;
-    margin-top: 48px;
+    margin-top: -20px;
     display: grid;
-    grid-template-columns: 32% 32% 32%;
+    grid-template-columns: 38% 38% 38%;
     grid-template-rows: 280px;
     grid-row-gap: 10px;
+    padding-left: 40px;
   }
 
   .deals_container {
@@ -1130,12 +1138,20 @@ footer {
 /* Desktop STARTS */
 
 @media screen and (min-width: 1124px) {
+  .top-nav {
+    width: 100%;
+  }
+
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
     left: 0;
     padding: 8px;
     margin: 0;
+  }
+
+  .top-nav-menu {
+    width: 100%;
   }
 
   .top-nav-menu-links {
@@ -1145,8 +1161,9 @@ footer {
     width: 100%;
     margin-top: 28px;
     position: relative;
-    left: 0.2px;
+    left: 50px;
     border: transparent;
+    z-index: 1;
   }
 
   .menu-links-first {
@@ -1164,7 +1181,8 @@ footer {
     padding-top: 8px;
     display: flex;
     width: 100%;
-    margin-left: 28px;
+    margin-left: 40px;
+    z-index: 1;
   }
 
   .nav-gridian a {
@@ -1173,10 +1191,15 @@ footer {
   }
 
   .nav-menu-link {
-    position: absolute;
+    position: relative;
     width: 20px;
-    top: 0;
-    right: 1px;
+    bottom: 5px;
+    left: 40px;
+    z-index: 1;
+  }
+
+  .top-nav-banner {
+    width: 100%;
   }
 
   .nav-banner-comment {
@@ -1272,11 +1295,15 @@ footer {
 
   /* Latest Deals STARTS */
 
+  .deals {
+    padding-left: 70px;
+  }
+
   .deals-grid {
     padding: 32px;
-    margin-top: 64px;
+    margin-top: -50px;
     display: grid;
-    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-columns: 28% 28% 28% 28%;
     grid-template-rows: 280px;
   }
 
