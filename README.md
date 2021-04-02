@@ -22,6 +22,23 @@ Desktop Version :
 
 ![screenshot](./img/screenshot/desktop.png)
 
+In Milestone 2 we build the rest of the project that contain categories section,latest news section and latest deals, in this part we used new practice which is css grid .
+
+Mobile Version :
+
+![screenshot](./img/screenshot/cate_phone.png)
+![screenshot](./img/screenshot/news_phone.png)
+![screenshot](./img/screenshot/deals_phone)
+
+Tablet Version :
+
+![screenshot](./img/screenshot/deals_tablet.png)
+![screenshot](./img/screenshot/news_tablet.png)
+
+Desktop Version :
+
+![screenshot](./img/screenshot/desktop2.png)
+
 ## Built With 🔨
 
 - HTML5
