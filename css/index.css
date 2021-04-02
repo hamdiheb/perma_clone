@@ -235,6 +235,10 @@ header {
   width: calc(100% - 2%);
 }
 
+.highlight-tnw-logo {
+  display: none;
+}
+
 /* HIGHLIGHTS ENDS */
 
 /** Latest funding STARTS **/
@@ -690,7 +694,6 @@ header {
 }
 
 .deals_menu {
-  width: 100px;
   float: right;
   margin-right: 10px;
 }
@@ -698,28 +701,41 @@ header {
 .deals_menu a {
   text-decoration: none;
   color: #f42;
+  font-weight: 300;
 }
 
 .deals_container {
-  width: 80%;
-  margin-left: 10px;
-  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .deals_img {
   width: 100px;
   height: 90px;
-  padding-top: 20px;
+  margin: 10px;
+  border-right: #000 1px solid;
+  border-bottom: #000 1px solid;
+}
+
+.deals-ribbon-svg {
+  display: none;
 }
 
 .deal_info {
-  width: 190px;
   float: right;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.deal_info p {
+  margin: 5px;
 }
 
 .deal_title a {
   text-decoration: none;
   color: black;
+  font-weight: 700;
+  font-family: sans-serif;
 }
 
 .deal_title a:hover {
@@ -728,12 +744,12 @@ header {
 
 .deal_price {
   text-decoration: line-through;
-  color: #777;
+  color: #aaa;
 }
 
 .deal_current_price {
   text-decoration:none;
-  color: #777;
+  color: #555;
 }
 
 .deal_current_price:hover {
@@ -1071,6 +1087,36 @@ footer {
   .nav-gridian a:hover {
     color: black;
   }
+
+  /* Latest Deals STARTS */
+
+  .deals-grid {
+    padding: 32px;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 280px;
+    grid-row-gap: 10px;
+  }
+
+  .deals_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .deals_img {
+    width: 90%;
+    min-height: 170px;
+    margin: 0;
+  }
+  
+
+  .deal_info {
+    width: 90%;
+  }
+
+  /* Latest Deals ENDS */
+
 }
 
 /* Desktop STARTS */
@@ -1157,6 +1203,13 @@ footer {
     font-size: 14px;
   }
 
+  .highlight-tnw-logo {
+    position: absolute;
+    display: block;
+    left: 22px;
+    top: 250px;
+  }
+
   .latestFunding-header-title {
     width: 800px;
   }
@@ -1207,6 +1260,29 @@ footer {
   .topic_2_container {
     margin-left: 35px;
   }
+
+  /* Latest Deals STARTS */
+
+  .deals-grid {
+    padding: 32px;
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 280px;
+  }
+
+  .deals_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .deals_img {
+    width: 90%;
+    min-height: 170px;
+    margin: 0;
+  }
+
+  /* Latest Deals ENDS */
 }
 
 /* Desktop ENDS */
