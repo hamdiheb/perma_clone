@@ -326,6 +326,28 @@ header {
   color: black;
 }
 
+.latest-news-header a{
+  text-decoration: none;
+  color: #f42;
+}
+
+.latest-news-details a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.deals_header a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.deal_title a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
 .latestFunding-header-links a:hover {
   text-decoration: underline;
 }
@@ -431,11 +453,6 @@ header {
   padding: 8px 0;
 }
 
-.latest-news-header a{
-  text-decoration: none;
-  color: #f42;
-}
-
 .latest-news-img {
   width: 90px;
   height: 80px;
@@ -466,15 +483,13 @@ header {
   content: ' · ';
 }
 
-.latest-news-details a {
-  text-decoration: none;
-  color: #aaa;
-}
-
 /** Topics STARTS **/
 
 .topics-section {
-  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  padding: 8px;
 }
 
 .topics-section .latestFunding-header-title {
@@ -565,17 +580,12 @@ header {
 .latest-news-details a:hover {
   color: black;
 }
+
 /** Latest news end **/
 
 /** Topics STARTS **/
 
-.topics-section {
-  display: flex;
-  flex-direction: column;
-  flex-flow: wrap;
-  padding: 8px;
-}
-.topic{
+.topic {
   width: 100%;
 }
 
@@ -592,21 +602,6 @@ header {
   color: #000;
 }
 
-.footer-links a:hover {
-  text-decoration: underline;
-}
-
-.footer-icon {
-  color: white;
-}
-
-.footer-icon:visited {
-  color: white;
-}
-
-.footer-logo {
-  width: 40px;
-}
 
 /** Footer ENDS ***/
 
@@ -618,25 +613,6 @@ header {
   justify-content: center;
   color: white;
   padding-top: 20px;
-}
-
-.topics-section .latestFunding-header-title {
-  color: #f42;
-  text-decoration: none;
-  font-size: 22px;
-  font-family: sans-serif;
-  font-weight: 800;
-}
-
-.categories-img-container {
-  display: flex;
-  flex-direction: column-reverse;
-  min-height: 300px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 16px;
 }
 
 #gear-topic {
@@ -672,20 +648,6 @@ header {
   margin-top: -16px;
   min-height: 97px;
   display: flex;
-}
-
-.img-container-src {
-  color: #fff;
-  margin: 5px 0;
-}
-
-.img-container-titleNew {
-  color: #fff;
-  font-size: 20px;
-  font-family: sans-serif;
-  text-decoration: none;
-  padding-right: 50px;
-  font-weight: 600;
 }
 
 .img-container-titleNew:hover {
@@ -822,11 +784,6 @@ header {
   margin-left: 10px;
 }
 
-.deals_header a {
-  text-decoration: none;
-  color: #f42;
-}
-
 .deals_menu {
   float: right;
   margin-right: 10px;
@@ -865,13 +822,6 @@ header {
   margin: 5px;
 }
 
-.deal_title a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  font-family: sans-serif;
-}
-
 .deal_title a:hover {
   text-decoration: underline;
 }
@@ -882,15 +832,15 @@ header {
 }
 
 .deal_current_price {
-  text-decoration:none;
+  text-decoration: none;
   color: #555;
 }
 
 .deal_current_price:hover {
   color: black;
 }
-/************/
-/** Footer STARTS ***/
+
+/** Footer STARTS **/
 
 footer {
   margin: 0;
@@ -919,9 +869,9 @@ footer {
   width: 40px;
 }
 
-/** Footer ENDS ***/
+/** Footer ENDS **/
 
-/** Footer STARTS ***/
+/** Footer STARTS **/
 
 .footer-socialmedia-icons,
 .footer-links {
@@ -970,7 +920,7 @@ footer {
   font-weight: 700;
 }
 
-/** Footer ENDS ***/
+/** Footer ENDS **/
 
 /* MAIN ENDS */
 
@@ -1122,12 +1072,6 @@ footer {
 
   .latestFunding-header-title {
     width: 800px;
-  }
-
-  .latestFunding-header-title a {
-    text-decoration: none;
-    color: #f42;
-    font-size: 28px;
   }
 
   .top-nav-menu-fast-links a:hover {
@@ -1359,10 +1303,6 @@ footer {
     width: 800px;
   }
 
-  .latestFunding-header-title a:hover {
-    text-decoration: underline;
-  }
-
   .latestFunding-header-links {
     display: flex;
     flex-direction: row;
@@ -1392,7 +1332,7 @@ footer {
     margin: 8px;
   }
 
-  .topic{
+  .topic {
     width: 30%;
   }
 
@@ -1428,6 +1368,7 @@ footer {
   }
 
   /* Latest Deals ENDS */
+  
 }
 
 /* Desktop ENDS */
