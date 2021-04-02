@@ -427,7 +427,7 @@ header {
   flex-direction: column;
 }
 
-.news-container{
+.news-container {
   padding: 8px 0;
 }
 
@@ -453,7 +453,7 @@ header {
   color: black;
 }
 
-.latest-news-title a:hover{
+.latest-news-title a:hover {
   text-decoration: underline;
 }
 
@@ -470,6 +470,97 @@ header {
   text-decoration: none;
   color: #aaa;
 }
+
+/** Topics STARTS **/
+
+.topics-section {
+  padding: 16px;
+}
+
+.topics-section .latestFunding-header-title {
+  color: #f42;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.categories-img-container {
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: 300px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 16px;
+}
+
+.img-container-src {
+  color: #fff;
+  margin: 5px 0;
+}
+
+.img-container-titleNew {
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding-right: 50px;
+  font-weight: 600;
+}
+
+.details-author {
+  color: #aaa;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.details-author::after {
+  content: ' · ';
+}
+
+.details-date {
+  color: #aaa;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.latest-container {
+  background-color: #f422;
+  margin: 0;
+  display: flex;
+  height: 96px;
+}
+
+.latest-header {
+  margin: 0;
+  padding-top: 16px;
+  padding-left: 16px;
+  color: #f42;
+  font-size: 13px;
+}
+
+.latest-title {
+  padding-left: 16px;
+  text-decoration: none;
+  color: #f42;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.latest-image {
+  background-image: url(../img/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 96px;
+  width: 96px;
+}
+
+/** Topics ENDS **/
 
 .latest-news-details a:hover {
   color: black;
@@ -488,7 +579,7 @@ header {
   width: 100%;
 }
 
-.section-header-title{
+.section-header-title {
   display: block;
   font-size: 22px;
   color: #f42;
@@ -499,6 +590,34 @@ header {
 
 .section-header-title:hover {
   color: #000;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-icon {
+  color: white;
+}
+
+.footer-icon:visited {
+  color: white;
+}
+
+.footer-logo {
+  width: 40px;
+}
+
+/** Footer ENDS ***/
+
+/** Footer STARTS ***/
+
+.footer-socialmedia-icons,
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 20px;
 }
 
 .topics-section .latestFunding-header-title {
@@ -524,6 +643,14 @@ header {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/gear-topics-section-background.jpg);
 }
 
+.bx {
+  margin: 4px;
+  background: #333;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
 #app-topic {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/apps-topics-section-background.png);
 }
@@ -538,6 +665,12 @@ header {
 
 #podium_topic {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0, 0) 100%), url(../img/podium-topics-section-background.png);
+
+.footer-section-buttom {
+  background-color: #000;
+  margin-top: -16px;
+  min-height: 97px;
+  display: flex;
 }
 
 .img-container-src {
@@ -565,7 +698,7 @@ header {
   font-size: 12px;
 }
 
-.details-author:hover{
+.details-author:hover {
   color: #fff;
 }
 
@@ -586,12 +719,12 @@ header {
   height: 96px;
 }
 
-.latest-header{
+.latest-header {
   margin: 0;
   padding: 10px;
 }
 
-.latest-header a{
+.latest-header a {
   text-decoration: none;
   color: #f42;
   padding-left: 10px;
@@ -845,7 +978,7 @@ footer {
 /** Tablet STARTS **/
 
 @media screen and (min-width: 720px) {
-
+  
   .top-nav-menu {
     position: fixed;
     top: 120px;
@@ -943,8 +1076,17 @@ footer {
     font-size: 15px;
   }
 
-  .highlight-info{
+  .highlight-info {
     width: calc(100% - 10%);
+  }
+  
+  .highlights p {
+    padding-right: 9%;
+  }
+
+  #highlights-1 .highlight-title a {
+    font-size: 28px;
+
   }
 
   .highlights p {
@@ -958,21 +1100,22 @@ footer {
   /*****topics2*****/
   /** Topics 2 ***/
 
-.topic_2 {
-  display: grid;
-  grid-template-columns: 45% 45%;
-  padding-left: 50px;
-}
+  .topic_2 {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    padding-left: 50px;
+  }
 
-.topic_2_container {
-  margin-left: 10px;
-  padding-top: 50px;
-}
+  .topic_2_container {
+    margin-left: 10px;
+    padding-top: 50px;
+  }
 
-.grid_second_part {
-  margin-top: 150px;
-}
-/*** Topics end ***/
+  .grid_second_part {
+    margin-top: 150px;
+  }
+  
+  /*** Topics end ***/
   /*****************/
   /** Latest funding STARTS **/
 
@@ -1025,6 +1168,7 @@ footer {
     flex-direction: row;
     flex-flow: wrap;
   }
+  
   .latest-news-header {
     display: block;
     width: 95%;
@@ -1090,10 +1234,6 @@ footer {
 
   /* Latest Deals STARTS */
 
-  .deals {
-    padding-left: 80px;
-  }
-
   .deals-grid {
     padding: 32px;
     margin-top: 48px;
@@ -1118,13 +1258,13 @@ footer {
   .deal_info {
     width: 90%;
   }
+}
 
   /* Latest Deals ENDS */
 
-}
-
 /* Desktop STARTS */
 @media screen and (min-width: 1124px) {
+  
   .top-nav-menu-fast-links {
     position: fixed;
     width: 100%;
@@ -1266,10 +1406,6 @@ footer {
   }
 
   /* Latest Deals STARTS */
-  
-  .deals {
-    padding-left: 80px;
-  }
 
   .deals-grid {
     padding: 32px;
